@@ -16,6 +16,10 @@
     <module>flamingo-trunk</module>
     <module>flamingo-drafting</module>
     <module>flamingo-targeting</module>
+    <module>flamingo-rights</module>
+    <module>flamingo-bluesky</module>
+    <module>flamingo-pipekit</module>
+    <module>flamingo-labeling</module>
     <module>flamingo-bootstrap</module>
   </modules>
 

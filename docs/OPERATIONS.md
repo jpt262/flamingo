@@ -51,7 +51,7 @@ flamingo-bootstrap  ──►  cockpit (:8177, live) · task modes (smoke/golden
 | T-26..T-37 | P3 drafter + P4 buyer-list | 🔒 GATE 1-LOCKED |
 | T-38..T-41 | P6a/P6b/P7-modeling/P5 | 🔒 GATE 2-LOCKED (+counsel for P5) |
 
-## 3. Product→ticket coverage matrix (the "is EVERYTHING included?" answer)
+## 3. Product→ticket coverage matrix
 
 | Product row | Needs | Covered by |
 |---|---|---|
@@ -65,8 +65,7 @@ flamingo-bootstrap  ──►  cockpit (:8177, live) · task modes (smoke/golden
 | P6b PIPE Kit | T-39.. | GATE 2 |
 | P7 Evidence Engine | label harvest now (ADR-0007 vocab), modeling at GATE 2 | vocabulary live |
 
-Nothing in the portfolio is unowned: every row is either LIVE, IN-FLIGHT (queued
-with a ticket), or GATE-LOCKED with a pre-planned reserved block.
+Every portfolio row is LIVE, IN-FLIGHT, or GATE-LOCKED with a pre-planned reserved block.
 
 ## 4. Operating notes
 

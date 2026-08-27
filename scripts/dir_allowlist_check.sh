@@ -5,10 +5,10 @@
 # which today they have not. Lexical gates stop typos; directory presence does not.
 set -euo pipefail
 
-ALLOWED="flamingo-edgar flamingo-trunk flamingo-bootstrap flamingo-drafting flamingo-targeting packages apps infra docs scripts tests assets .data"
-# GATE 1 PASSED (owner, 2026-08-27): drafting + targeting dirs admitted per §0/§16.
-# bluesky/pipekit/labeling remain LOCKED until GATE 2. .data = runtime R1 raw-store
-# (created on first LIVE run); NOT a product module, stays gitignored.
+ALLOWED="flamingo-edgar flamingo-trunk flamingo-bootstrap flamingo-drafting flamingo-targeting flamingo-rights flamingo-bluesky flamingo-pipekit flamingo-labeling packages apps infra docs scripts tests assets .data"
+# GATE 1 PASSED (owner, 2026-08-27): drafting + targeting admitted.
+# GATE 2 PASSED (owner, 2026-08-27): rights/bluesky/pipekit/labeling admitted.
+# P5 rights production use additionally requires counsel confirmation (§12/§18).
 
 fail=0
 for entry in */ .*/; do
