@@ -89,7 +89,7 @@ never deletion · R9 gates are owner-typed only.
 
 ![cockpit](docs/screenshots/cockpit-overview.png)
 
-**[docs/GALLERY.md](docs/GALLERY.md)** — the full visual arsenal (8 exhibits, live output) · **[docs/STORY.md](docs/STORY.md)** — the narrated walkthrough: what every
+**[docs/PRODUCT.md](docs/PRODUCT.md)** — all nine products with screenshots, in plain language · **[docs/ROADMAP.md](docs/ROADMAP.md)** — what's next · **[docs/GALLERY.md](docs/GALLERY.md)** — evidence gallery what every
 number means, the three-issuer story, the four-flag delinquency catch, the
 restoration drift-back, and why the instruments queue is human-gated.
 
