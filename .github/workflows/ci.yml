@@ -1,0 +1,44 @@
+name: flamingo-ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Structural dir allowlist (R9 enforcement)
+        run: bash scripts/dir_allowlist_check.sh
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+          cache: maven
+
+      # Offline discipline: fixtures only. Live network appears exclusively in
+      # the manually-dispatched smoke job below (build order R3, §16/T-04).
+      - name: Build + unit suites (offline)
+        run: ./mvnw -B -ntp verify
+
+  # Tagged smoke job — NOT part of default PR checks; dispatched explicitly
+  # with repository secrets by the owner.
+  smoke-live-net:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    environment: live-smoke
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+          cache: maven
+      - name: Single-CIK LIVE_NET=1 smoke (T-04 path, token-bucket capped)
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+          LIVE_NET: '1'
+        run: ./mvnw -B -ntp -pl flamingo-bootstrap spring-boot:run

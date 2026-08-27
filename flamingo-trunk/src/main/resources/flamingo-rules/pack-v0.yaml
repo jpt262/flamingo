@@ -1,0 +1,28 @@
+# Rule pack v0 — build order §7, verbatim. Rules are DATA; the engine is generic.
+# Adding/changing a rule = edit this file (data change), never engine code.
+pack_version: v0
+rules:
+  - id: DISC-001
+    dimension: disclosure_timeliness
+    severity: blocking
+    expr: "days_since_last_form(['10-K','10-Q','20-F','40-F']) > 365"
+    citation: "Exchange Act Rule 15c2-11(a): adequate current public information"
+    remediation: "File outstanding periodic reports; re-engage PCAOB auditor."
+  - id: DISC-002
+    dimension: xbrl_completeness
+    severity: warn
+    expr: "xbrl_coverage_ratio < 0.60"
+    citation: "Data-quality indicator"
+    remediation: "Review tagging coverage in recent filings."
+  - id: FIN-001
+    dimension: auditor_presence
+    severity: blocking
+    expr: "no_auditor_on_record OR going_concern_language_present"
+    citation: "15c2-11(a)(4)-(6)-adjacent diligence factor"
+    remediation: "Confirm auditor of record; capture opinion language."
+  - id: FIN-002
+    dimension: capital_sanity
+    severity: warn
+    expr: "shares_outstanding > authorized_shares"
+    citation: "Impossible capitalization; stale/conflicting data"
+    remediation: "Resolve conflicting share counts; check DISCREPANCY banner."

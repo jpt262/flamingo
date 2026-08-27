@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: flamingo
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://localhost:5434/flamingo}
+    username: ${DATABASE_USER:flamingo}
+    password: ${DATABASE_PASSWORD:flamingo}
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+    baseline-on-migrate: false
+
+flamingo:
+  raw-store: ${FLAMINGO_RAW_STORE:.data/rawstore}
+
+# §17 baseline: secrets NEVER logged. Console pattern strips credential-bearing
+# assignments before they hit any sink (Java-side analog of structlog redaction).
+logging:
+  pattern:
+    console: '%d{HH:mm:ss} %-5level %logger{24} - %replace(%msg){''(password|passwd|secret|token|api[_-]?key|authorization)\s*[:=]\s*\S+'', ''$1=<REDACTED>''}%n'

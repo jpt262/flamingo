@@ -1,0 +1,120 @@
+{
+  "fixture_version": 1,
+  "scenario": "going-concern",
+  "as_of": "2026-08-27",
+  "issuer": {
+    "cik": "0009000003",
+    "entity_name": "Synthetic GoingConcern Labs"
+  },
+  "state": {
+    "filings": [
+      {
+        "accession": "0000900003-26-000004",
+        "form_type": "10-K",
+        "filed_at": "2026-03-02",
+        "period_of_report": "2025-12-31"
+      },
+      {
+        "accession": "0000900003-26-000011",
+        "form_type": "10-Q",
+        "filed_at": "2026-05-09",
+        "period_of_report": "2026-03-31"
+      }
+    ],
+    "facts": [
+      {
+        "taxonomy": "dei",
+        "tag": "EntityCommonStockSharesOutstanding",
+        "value": 45000000,
+        "unit": "shares",
+        "instant": true,
+        "period_end": "2026-05-09",
+        "fy": 2026,
+        "fp": "Q1"
+      },
+      {
+        "taxonomy": "us-gaap",
+        "tag": "CommonStockSharesAuthorized",
+        "value": 100000000,
+        "unit": "shares",
+        "instant": true,
+        "period_end": "2025-12-31",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      {
+        "taxonomy": "us-gaap",
+        "tag": "StockholdersEquity",
+        "value": 1800000,
+        "unit": "USD",
+        "instant": true,
+        "period_end": "2025-12-31",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      {
+        "taxonomy": "us-gaap",
+        "tag": "CashAndCashEquivalentsAtCarryingValue",
+        "value": 640000,
+        "unit": "USD",
+        "instant": true,
+        "period_end": "2025-12-31",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      {
+        "taxonomy": "us-gaap",
+        "tag": "AssetsCurrent",
+        "value": 2100000,
+        "unit": "USD",
+        "instant": true,
+        "period_end": "2025-12-31",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      {
+        "taxonomy": "us-gaap",
+        "tag": "LiabilitiesCurrent",
+        "value": 3400000,
+        "unit": "USD",
+        "instant": true,
+        "period_end": "2025-12-31",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      {
+        "taxonomy": "us-gaap",
+        "tag": "Revenues",
+        "value": 1200000,
+        "unit": "USD",
+        "instant": false,
+        "period_start": "2025-01-01",
+        "period_end": "2025-12-31",
+        "fy": 2025,
+        "fp": "FY"
+      }
+    ],
+    "instruments": [],
+    "signals": {
+      "auditor_on_record": true,
+      "going_concern_language": true
+    }
+  },
+  "expected_flags": [
+    {
+      "rule_id": "FIN-001",
+      "dimension": "auditor_presence",
+      "severity": "blocking"
+    }
+  ],
+  "analyst_judgment": {
+    "analyst": "synthetic-analyst-1",
+    "flags": [
+      {
+        "rule_id": "FIN-001",
+        "severity": "blocking"
+      }
+    ],
+    "notes": "Filings current but opinion carries going-concern language; FIN-001 trips on the OR-branch. Analyst agrees."
+  }
+}

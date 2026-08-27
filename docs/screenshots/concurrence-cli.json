@@ -1,0 +1,29 @@
+{
+  "scenarios" : 3,
+  "aggregate_concurrence_pct" : 0.75,
+  "per_scenario" : [ {
+    "scenario" : "current",
+    "engine" : 0,
+    "analyst" : 0,
+    "matched" : 0,
+    "engine_only" : "",
+    "analyst_only" : "",
+    "concurrence_pct" : 1.0
+  }, {
+    "scenario" : "delinquent-400d",
+    "engine" : 4,
+    "analyst" : 1,
+    "matched" : 1,
+    "engine_only" : "FIN-002,DISC-002,FIN-001",
+    "analyst_only" : "",
+    "concurrence_pct" : 0.25
+  }, {
+    "scenario" : "going-concern",
+    "engine" : 1,
+    "analyst" : 1,
+    "matched" : 1,
+    "engine_only" : "",
+    "analyst_only" : "",
+    "concurrence_pct" : 1.0
+  } ]
+}

@@ -1,0 +1,94 @@
+{
+  "fixture_version": 1,
+  "scenario": "delinquent-400d",
+  "as_of": "2026-08-27",
+  "issuer": {
+    "cik": "0009000002",
+    "entity_name": "Synthetic Delinquent Holdings"
+  },
+  "state": {
+    "filings": [
+      {
+        "accession": "0000900002-25-000007",
+        "form_type": "10-K",
+        "filed_at": "2025-05-01",
+        "period_of_report": "2024-12-31"
+      },
+      {
+        "accession": "0000900002-25-000019",
+        "form_type": "8-K",
+        "filed_at": "2025-11-12",
+        "period_of_report": null
+      }
+    ],
+    "facts": [
+      {
+        "taxonomy": "dei",
+        "tag": "EntityCommonStockSharesOutstanding",
+        "value": 1150000000,
+        "unit": "shares",
+        "instant": true,
+        "period_end": "2025-11-12",
+        "fy": 2025,
+        "fp": "Q3"
+      },
+      {
+        "taxonomy": "us-gaap",
+        "tag": "CommonStockSharesAuthorized",
+        "value": 900000000,
+        "unit": "shares",
+        "instant": true,
+        "period_end": "2024-12-31",
+        "fy": 2024,
+        "fp": "FY"
+      },
+      {
+        "taxonomy": "us-gaap",
+        "tag": "StockholdersEquity",
+        "value": -3200000,
+        "unit": "USD",
+        "instant": true,
+        "period_end": "2024-12-31",
+        "fy": 2024,
+        "fp": "FY"
+      }
+    ],
+    "instruments": [],
+    "signals": {
+      "auditor_on_record": false,
+      "going_concern_language": false
+    }
+  },
+  "expected_flags": [
+    {
+      "rule_id": "DISC-001",
+      "dimension": "disclosure_timeliness",
+      "severity": "blocking"
+    },
+    {
+      "rule_id": "FIN-002",
+      "dimension": "capital_sanity",
+      "severity": "warn"
+    },
+    {
+      "rule_id": "DISC-002",
+      "dimension": "xbrl_completeness",
+      "severity": "warn"
+    },
+    {
+      "rule_id": "FIN-001",
+      "dimension": "auditor_presence",
+      "severity": "blocking"
+    }
+  ],
+  "analyst_judgment": {
+    "analyst": "synthetic-analyst-1",
+    "flags": [
+      {
+        "rule_id": "DISC-001",
+        "severity": "blocking"
+      }
+    ],
+    "notes": "Analyst caught delinquency only \u2014 missed FIN-001 (no auditor on record), FIN-002 (impossible share counts), DISC-002 (coverage 3/11). SEEDED DISAGREEMENT: engine concurrence 1/4. Real-world pattern: analysts anchor on filing recency and skip the qualification/coverage dimensions."
+  }
+}

@@ -1,0 +1,37 @@
+services:
+  db:
+    image: postgres:16
+    container_name: flamingo-db
+    environment:
+      POSTGRES_USER: flamingo
+      POSTGRES_PASSWORD: flamingo
+      POSTGRES_DB: flamingo
+    ports:
+      - "5434:5432"
+    volumes:
+      - flamingo_pgdata:/var/lib/postgresql/data
+      - ./db/init.sql:/docker-entrypoint-initdb.d/10-init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U flamingo -d flamingo"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  # S3-API + Object Lock parity for the WORM archive (R1/R3 target store).
+  # Digest pinning lands with T-17; dev tag only until then.
+  objectstore:
+    image: minio/minio:latest
+    container_name: flamingo-objectstore
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: flamingo
+      MINIO_ROOT_PASSWORD: flamingo-dev-change-me
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    volumes:
+      - flamingo_objects:/data
+
+volumes:
+  flamingo_pgdata:
+  flamingo_objects:

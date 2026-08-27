@@ -1,0 +1,83 @@
+# Flamingo tag dictionary — pack data, NOT code (T-08; adding a concept = edit this file only).
+# Canonical concept → candidate raw tags per namespace, FIRST-PRESENT-WINS within a namespace.
+# Per owner ruling: namespaces dei, us-gaap, ifrs-full (FPI subset measured in T-05/T-07 coverage).
+#
+# kind: instant | duration   (instant = point-in-time balance; duration = period flow)
+
+concepts:
+  SharesOutstanding:
+    kind: instant
+    candidates:
+      dei: [EntityCommonStockSharesOutstanding]
+      us-gaap: [CommonStockSharesOutstanding, deiEntityCommonStockSharesOutstanding]
+      ifrs-full: [CommonSharesOutstanding, IssuedCapital]
+
+  SharesAuthorized:
+    kind: instant
+    candidates:
+      dei: []
+      us-gaap: [CommonStockSharesAuthorized]
+      ifrs-full: [OrdinarySharesAuthorised, IssuedCapitalAndSharesOutstanding]
+
+  SharesIssued:
+    kind: instant
+    candidates:
+      dei: []
+      us-gaap: [CommonStockSharesIssued]
+      ifrs-full: [OrdinarySharesIssued, IssuedCapital]
+
+  PublicFloat:
+    kind: instant
+    candidates:
+      dei: [EntityPublicFloat]
+      us-gaap: []
+      ifrs-full: []
+
+  StockholdersEquity:
+    kind: instant
+    candidates:
+      dei: []
+      us-gaap: [StockholdersEquity, StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest]
+      ifrs-full: [Equity]
+
+  Cash:
+    kind: instant
+    candidates:
+      dei: []
+      us-gaap: [CashAndCashEquivalentsAtCarryingValue, CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents]
+      ifrs-full: [CashAndCashEquivalents]
+
+  LongTermDebt:
+    kind: instant
+    candidates:
+      dei: []
+      us-gaap: [LongTermDebt, LongTermDebtNoncurrent]
+      ifrs-full: [NoncurrentLiabilities, LongtermBorrowings]
+
+  AssetsCurrent:
+    kind: instant
+    candidates:
+      dei: []
+      us-gaap: [AssetsCurrent]
+      ifrs-full: [CurrentAssets]
+
+  LiabilitiesCurrent:
+    kind: instant
+    candidates:
+      dei: []
+      us-gaap: [LiabilitiesCurrent]
+      ifrs-full: [CurrentLiabilities]
+
+  Revenues:
+    kind: duration
+    candidates:
+      dei: []
+      us-gaap: [Revenues, RevenueFromContractWithCustomerExcludingAssessedTax, SalesRevenueNet]
+      ifrs-full: [Revenue, RevenueFromSaleOfGoods]
+
+  NetIncomeLoss:
+    kind: duration
+    candidates:
+      dei: []
+      us-gaap: [NetIncomeLoss, ProfitLoss]
+      ifrs-full: [ProfitLossAttributableToOwnersOfParent, ProfitLoss]

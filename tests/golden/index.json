@@ -1,0 +1,1205 @@
+{
+  "form" : "424B5",
+  "count" : 200,
+  "filings" : [ {
+    "accession" : "0001381197-26-000138",
+    "cik_int" : 1381197,
+    "filed_at" : "",
+    "doc_object_key" : "www.sec.gov/4b606b2c2d7fd10e62f135ea22eb82147d5d55d5980ec29c6fb1d6a48b57602f/20260827T054644Z.bin",
+    "doc_sha256" : "923ca8d3a00df4ba8c0e03f86c5a7cef4d19b7e73f1c30cabc251d8de82ce757"
+  }, {
+    "accession" : "0001381197-26-000133",
+    "cik_int" : 1381197,
+    "filed_at" : "",
+    "doc_object_key" : "www.sec.gov/8c14f8b1bc16eb4306efe6ff2f66b3c47a4ef5b1f0a540c57b239624ed29fd7c/20260827T054645Z.bin",
+    "doc_sha256" : "75e7ac6e44e84852acea9e9f7452beed4f08e2cf2e8ee951e3cfe162906a9df9"
+  }, {
+    "accession" : "0001428205-26-000098",
+    "cik_int" : 1428205,
+    "filed_at" : "",
+    "doc_object_key" : "www.sec.gov/e1abf3b3351a176e93cce6eb8c43792b56ba08e6975a16b3de060068c6be42f5/20260827T054724Z.bin",
+    "doc_sha256" : "863ad40f73a5acbb82f9b412d16656b175d109b824457b04874f07934bbad53e"
+  }, {
+    "accession" : "0001819438-26-000064",
+    "cik_int" : 1819438,
+    "filed_at" : "",
+    "doc_object_key" : "www.sec.gov/d2362d9c2489301cb3cf25feba119073df51764b2174aceb5caf6a05799a730e/20260827T054738Z.bin",
+    "doc_sha256" : "1b36ace011e9fe544844a2a748183058e66b99e6424cea3da037a0fe83bdf074"
+  }, {
+    "accession" : "0001758766-26-000074",
+    "cik_int" : 1758766,
+    "filed_at" : "",
+    "doc_object_key" : "www.sec.gov/aa2e9a4e925a02be985109f624d861b2bf6a67b57e6180d81050d25b90c81b75/20260827T054906Z.bin",
+    "doc_sha256" : "78f162a6a1e9d94fe6acd9f728abdfdf524bd33a3d9388aaaa4e9d7e21b2a455"
+  }, {
+    "accession" : "0001702494-26-000006",
+    "cik_int" : 1702494,
+    "filed_at" : "",
+    "doc_object_key" : "www.sec.gov/514a296aec47b2f1789c42473da15dbcf2ec62d2b4f8db0b17d0d03b6cddff36/20260827T054916Z.bin",
+    "doc_sha256" : "53970c90be4833ce6400039708bee094fbc3650900c561a9d8fa8746e05a9251"
+  }, {
+    "accession" : "0001819994-26-000044",
+    "cik_int" : 1819994,
+    "filed_at" : "",
+    "doc_object_key" : "www.sec.gov/e97370c1a92ccf84dac49bc0e78b42f7791be529bfc5e45a67ab05ad2dc0b4fb/20260827T054928Z.bin",
+    "doc_sha256" : "c7d74b4e035a4e18cd3703f42a554a448da40ca306e2b6d0e1ca0c430cbf9294"
+  }, {
+    "accession" : "0001004155-26-000008",
+    "cik_int" : 1004155,
+    "filed_at" : "",
+    "doc_object_key" : "www.sec.gov/773fc47d7966faa1265a704fa322989d99f3e696859b87eb7f55e6141f769024/20260827T054934Z.bin",
+    "doc_sha256" : "4cef9a456d64e29e60b7da2a414f7a8d62dd2a61aead5c5ed5c66657a366eac1"
+  }, {
+    "accession" : "0001653909-26-000005",
+    "cik_int" : 1653909,
+    "filed_at" : "",
+    "doc_object_key" : "www.sec.gov/21188661cba3f8fa7ddc86370a100489557f4174a94b74bc075bd4ebe5cb77fb/20260827T054938Z.bin",
+    "doc_sha256" : "a5f5341d9199b50421eb533d2fc70e3b16e4c1f3d8a7cba417aaaf35f2605584"
+  }, {
+    "accession" : "0000826675-26-000042",
+    "cik_int" : 826675,
+    "filed_at" : "",
+    "doc_object_key" : "www.sec.gov/e49b9c844ec86377a83f0319afc9cc89501bf899d8049eff5a7843933e2cb1b8/20260827T054942Z.bin",
+    "doc_sha256" : "1193e0ddca06c30651e025467ce6517303ae74df86fc4e944dc53ac106e83db2"
+  }, {
+    "accession" : "0001326190-26-000031",
+    "cik_int" : 1326190,
+    "filed_at" : "",
+    "doc_object_key" : "www.sec.gov/fe2b193b4ca5119a08df683d9656bfea57dad4d5097b5d64dbef82594eb2718b/20260827T054952Z.bin",
+    "doc_sha256" : "07a57eb42027b2177dd98b478df81b9f64261b262ba1dc85e6f514b3756b6bbb"
+  }, {
+    "accession" : "0001628280-26-051455",
+    "cik_int" : 1360604,
+    "filed_at" : "2026-07-31",
+    "doc_object_key" : "www.sec.gov/f8e4de120a8b8056727ef6c1d7d7768eca0bf0b0a9bfd83c8d5acf6fdcb25c91/20260827T055705Z.bin",
+    "doc_sha256" : "c52ba07feafba60afdb5c7d3ee5a9cd92a8927692bf04f7ac5767aa5b2c87c26"
+  }, {
+    "accession" : "0001493152-26-035691",
+    "cik_int" : 1991261,
+    "filed_at" : "2026-07-31",
+    "doc_object_key" : "www.sec.gov/9053d014434ef1c2722879629ee0c97032813cb0479435ac8d1237b73f2c6d1b/20260827T055705Z.bin",
+    "doc_sha256" : "f6fc10dea7c2d0372e65939f8d2f693e232a1bf529a8474f6e4669cdd27e2f95"
+  }, {
+    "accession" : "0001437749-26-025250",
+    "cik_int" : 1617867,
+    "filed_at" : "2026-07-31",
+    "doc_object_key" : "www.sec.gov/2cad6109bf50bb71fc8190d403eeca76a15f782d704e48f4f7c93439b24490c8/20260827T055705Z.bin",
+    "doc_sha256" : "aa42a1f139a4d3e6e1b1d8ffd76605d97d30faf5d986c030affb927190c89061"
+  }, {
+    "accession" : "0001213900-26-083959",
+    "cik_int" : 1711786,
+    "filed_at" : "2026-07-31",
+    "doc_object_key" : "www.sec.gov/cd5231129cdf79e3dd51b7d6aada31d91f1187607fed499488a9a64a9ac0f783/20260827T055706Z.bin",
+    "doc_sha256" : "f28ac34b4c31e41046e35c468065af80aef9a74e73f04dbe8c4fdd6601ea8376"
+  }, {
+    "accession" : "0001213900-26-083640",
+    "cik_int" : 1980210,
+    "filed_at" : "2026-07-31",
+    "doc_object_key" : "www.sec.gov/3fde5070385c8301b41a22432dc7cc8df52aa8d2c3f7e0d008c6f3274fc08883/20260827T055706Z.bin",
+    "doc_sha256" : "2e40616ef15ee9aea4afdb2ccd7c2c41ac628526e48ff491406aaccbae217761"
+  }, {
+    "accession" : "0001193125-26-328721",
+    "cik_int" : 1836981,
+    "filed_at" : "2026-07-31",
+    "doc_object_key" : "www.sec.gov/4f9617f704b8ee203485ae9be963d39c0092e84dff09c9496c3a3ad8a3fbbda3/20260827T055707Z.bin",
+    "doc_sha256" : "d34f703d1f8cf185a2ea5b7f9a19a0fee7e4e81a59107386f3a239340dd05462"
+  }, {
+    "accession" : "0001193125-26-328573",
+    "cik_int" : 1650132,
+    "filed_at" : "2026-07-31",
+    "doc_object_key" : "www.sec.gov/b86c80114c52737a7221d2be56f56ee06c83aaf834cce9e00294adaffd2cd008/20260827T055707Z.bin",
+    "doc_sha256" : "c5e3fb69313535aa9b4caa11236bba8fb0b9fcb59571149b33b870a72f9bd5ac"
+  }, {
+    "accession" : "0001104659-26-089290",
+    "cik_int" : 1072379,
+    "filed_at" : "2026-07-31",
+    "doc_object_key" : "www.sec.gov/d6c1cb1eb9753b79bae24a5a30a25a5e9a00616ca7f377ad8ef1e74ffd7c0cd4/20260827T055708Z.bin",
+    "doc_sha256" : "4946e6360aef3069bb007335082b7b827daae47c818da4941d0ea5bc10e54a8a"
+  }, {
+    "accession" : "0001062993-26-003958",
+    "cik_int" : 1591956,
+    "filed_at" : "2026-07-31",
+    "doc_object_key" : "www.sec.gov/102c74662fef44880ab0fa17c8d0f2289a955b53d978db8402e053b01b6707ce/20260827T055708Z.bin",
+    "doc_sha256" : "0c9d378c0f00bbef45b1a8bbd87735bb918bc559027c0952d9e4d84df596ead5"
+  }, {
+    "accession" : "0001213900-26-083336",
+    "cik_int" : 1804469,
+    "filed_at" : "2026-07-30",
+    "doc_object_key" : "www.sec.gov/3538f6ccc147078c31525560c8290e72d4228637b8b355b2a69541acbd20045e/20260827T055709Z.bin",
+    "doc_sha256" : "e6b11981ead68fcdf9cba427084a5190e27e1e7fdfcb227003277eadf43a928d"
+  }, {
+    "accession" : "0001213900-26-083083",
+    "cik_int" : 1491419,
+    "filed_at" : "2026-07-30",
+    "doc_object_key" : "www.sec.gov/8caff65c152d6fbfc4e614961b63e779d312952e8242d669b8bbaa5ccbc5278e/20260827T055709Z.bin",
+    "doc_sha256" : "95d4ee93b5832907f8db001cf9aa72856268df5aea2bdbb297b519963968ee2e"
+  }, {
+    "accession" : "0001193125-26-326370",
+    "cik_int" : 1055726,
+    "filed_at" : "2026-07-30",
+    "doc_object_key" : "www.sec.gov/6820687d469b5b5842b8772d7860d4000cf95ead8210551012d7e15f374951ee/20260827T055710Z.bin",
+    "doc_sha256" : "b6681244a5f57768916f335b53562c0a1571d0c9209c6ea22c6a00ec9d6cc186"
+  }, {
+    "accession" : "0001193125-26-325751",
+    "cik_int" : 102385,
+    "filed_at" : "2026-07-30",
+    "doc_object_key" : "www.sec.gov/a90fce500278fe0ae3894ccacf831d72ce9056b6f48eaa1a9e285458a59ff31c/20260827T055710Z.bin",
+    "doc_sha256" : "86ab81337c04db46a80a05d8054bc6c4f75b646d4dc4885fc2a41915b2f01259"
+  }, {
+    "accession" : "0001193125-26-325724",
+    "cik_int" : 102385,
+    "filed_at" : "2026-07-30",
+    "doc_object_key" : "www.sec.gov/ac8c3d7f4ac2645106df18dbc2fbe8fe6ea22827abc5ce31b256602039bda5b7/20260827T055711Z.bin",
+    "doc_sha256" : "bbbf18a8312883b3b5ec4c7bcb121809fae80b27efb273a78f4cfb6e8eb8d78e"
+  }, {
+    "accession" : "0001185185-26-003167",
+    "cik_int" : 39020,
+    "filed_at" : "2026-07-30",
+    "doc_object_key" : "www.sec.gov/3c96e413e8b1ae1b09d9aea30369e0f162c0883ce4f5eb76338860f42673a058/20260827T055711Z.bin",
+    "doc_sha256" : "2dffea3f2dac3130b18397d2e812841132f7130cc33c9a333341b6e1c14c34b0"
+  }, {
+    "accession" : "0001104659-26-088495",
+    "cik_int" : 201533,
+    "filed_at" : "2026-07-30",
+    "doc_object_key" : "www.sec.gov/245bfca9255a7bdd2cf3553bfd528d03847cff64c66fae2fb64d40037c516599/20260827T055712Z.bin",
+    "doc_sha256" : "bd065c0c3f93c8e55b2cf43ed98c4bdda284a72ecab42c698929a08938d830b5"
+  }, {
+    "accession" : "0001104659-26-088494",
+    "cik_int" : 1130310,
+    "filed_at" : "2026-07-30",
+    "doc_object_key" : "www.sec.gov/4aa0b72191bee8f164ed2b68fbf64861c1ae94f013864e3ff1f6d41a65a46b4f/20260827T055713Z.bin",
+    "doc_sha256" : "178176a3df1f4b169aff39032e58f9376f24e9081b456f0bbb2c3735b871e608"
+  }, {
+    "accession" : "0001493152-26-035246",
+    "cik_int" : 1819794,
+    "filed_at" : "2026-07-29",
+    "doc_object_key" : "www.sec.gov/533eab0f94dffac70ce6eab22eecd4e9451f73e18734281c2d5ac9406fb0be9f/20260827T055713Z.bin",
+    "doc_sha256" : "955c4e4324d264eecea3d7000e2fecf4e6be04b659fadafdabbf309e22875943"
+  }, {
+    "accession" : "0001213900-26-082575",
+    "cik_int" : 1856084,
+    "filed_at" : "2026-07-29",
+    "doc_object_key" : "www.sec.gov/bff643f4f81a53df611a699891f122b76e4bd39944c7828d0755ba11794383b1/20260827T055714Z.bin",
+    "doc_sha256" : "cb633937c20ec6a0894f12d3be7fb6457d8f724ab78c08b2b3612c67ad56df2d"
+  }, {
+    "accession" : "0001193125-26-323616",
+    "cik_int" : 1055726,
+    "filed_at" : "2026-07-29",
+    "doc_object_key" : "www.sec.gov/38fbcb7e93acaccf7efe3c293dff098c5c55e6937d69241b13e37c4cadba36a5/20260827T055714Z.bin",
+    "doc_sha256" : "8c700544809f2f8799af5f8a1db4fc7ad632e79817f227185ce41d5ec7522c07"
+  }, {
+    "accession" : "0001193125-26-322488",
+    "cik_int" : 6201,
+    "filed_at" : "2026-07-29",
+    "doc_object_key" : "www.sec.gov/1484c712cff1b7164af6ea059c8db1f1e0bf773bf7cac2a8d25458c91fd0f6e3/20260827T055715Z.bin",
+    "doc_sha256" : "700d8e294adb0424e906508a5b4aa2aa5f4a36ed83e52cfe9d712898a30a3018"
+  }, {
+    "accession" : "0001193125-26-322481",
+    "cik_int" : 6201,
+    "filed_at" : "2026-07-29",
+    "doc_object_key" : "www.sec.gov/6b647dcdf436b2fb15f279d27cae2746b11dc70cc38660e41fa943e9e484a51b/20260827T055715Z.bin",
+    "doc_sha256" : "f20000e30d00a32a30eceede25ada2b0d19c5d6d85ffd6cdac6bd0f02e014277"
+  }, {
+    "accession" : "0001104659-26-088067",
+    "cik_int" : 1442620,
+    "filed_at" : "2026-07-29",
+    "doc_object_key" : "www.sec.gov/b7fbb06bf6287aaa98e7a1dc98c4cabc3f7107529af0308f859bd8364ac4dd3f/20260827T055716Z.bin",
+    "doc_sha256" : "2d43255e7abb04bac11e784bad025a53b3b84fbda88cd47e68b1c87c9d61bbd6"
+  }, {
+    "accession" : "0001104659-26-087706",
+    "cik_int" : 19957,
+    "filed_at" : "2026-07-29",
+    "doc_object_key" : "www.sec.gov/84766b18a5c43e10240b80434725be3d4be392b8d97970e76be93720f913678a/20260827T055717Z.bin",
+    "doc_sha256" : "0d08d07706716b49a9c99b0e742727028374e77f8ae9da5594ed14a55ba40d17"
+  }, {
+    "accession" : "0001213900-26-082050",
+    "cik_int" : 1944902,
+    "filed_at" : "2026-07-28",
+    "doc_object_key" : "www.sec.gov/997c42c2af29837ecc9ec334ff5a54d0333311de956297c008edb9213bd728bc/20260827T055718Z.bin",
+    "doc_sha256" : "fc3bfa06c50fa33e3d9eeb8e6a564bed08d77b09c28d07a0d0372830779162cf"
+  }, {
+    "accession" : "0001193125-26-318996",
+    "cik_int" : 1601712,
+    "filed_at" : "2026-07-28",
+    "doc_object_key" : "www.sec.gov/34b6df95c10ce4b6beb9712aa80cc00b078efd1bd94e17316d5567774d1db7f3/20260827T055718Z.bin",
+    "doc_sha256" : "4fe3e8cefbda6262e2756052ab2a626f09b8572b75fd17d3e8fc8ab5bf2199b8"
+  }, {
+    "accession" : "0001185185-26-003154",
+    "cik_int" : 39020,
+    "filed_at" : "2026-07-28",
+    "doc_object_key" : "www.sec.gov/6f5e89ead276a0cadf05e2297e2b632f647dcb5330f621c384d3b0f7993e5d5e/20260827T055719Z.bin",
+    "doc_sha256" : "062ebaa64f36e073327f5d677e0e589e05f7acf651c44ba2ccdaf730631472fe"
+  }, {
+    "accession" : "0001178913-26-003620",
+    "cik_int" : 1835654,
+    "filed_at" : "2026-07-28",
+    "doc_object_key" : "www.sec.gov/f76768192202c186e3d8a2e4bb2a5039dc59197fb8abceb8b823490111293e61/20260827T055719Z.bin",
+    "doc_sha256" : "affc20028e9883ef175e137d837345a0e87f254ad3acce58a88fa5f857b68d43"
+  }, {
+    "accession" : "0001493152-26-034846",
+    "cik_int" : 1378140,
+    "filed_at" : "2026-07-27",
+    "doc_object_key" : "www.sec.gov/3639a7bb4b5d4722597038bcda6c99205b796523791b231cd05ec41ecec0a6cc/20260827T055720Z.bin",
+    "doc_sha256" : "bf25333995ab5d651897e37ca5f83c0abe7778f30a113d0edf05b3b923c8478f"
+  }, {
+    "accession" : "0001493152-26-034835",
+    "cik_int" : 1692415,
+    "filed_at" : "2026-07-27",
+    "doc_object_key" : "www.sec.gov/3454292cdbdf8960454e7578da58002d571307e53bd9265913cf406d566891a9/20260827T055721Z.bin",
+    "doc_sha256" : "0b0f307571f393dac64d6368c4e16bd0125117055e6016c10b75c62f2ed3d09c"
+  }, {
+    "accession" : "0001213900-26-081859",
+    "cik_int" : 1739174,
+    "filed_at" : "2026-07-27",
+    "doc_object_key" : "www.sec.gov/1c4a66541de6906b682bdfb16ef211f53badb97a66d63345f26d21aec9e4ed6f/20260827T055721Z.bin",
+    "doc_sha256" : "ad20b709f3c015d5b6d6ce846d3892ef7bfd8126417063d90079ca19076cec83"
+  }, {
+    "accession" : "0001213900-26-081556",
+    "cik_int" : 1949257,
+    "filed_at" : "2026-07-27",
+    "doc_object_key" : "www.sec.gov/421188e65490327ffb2499a946ada75cef5bd1eb71137772509395a5899dceb5/20260827T055722Z.bin",
+    "doc_sha256" : "731f7c94357dfc15e1a443d1c8544518d9350b17325356bcf133bfc81d9a85b5"
+  }, {
+    "accession" : "0001193125-26-317001",
+    "cik_int" : 75488,
+    "filed_at" : "2026-07-27",
+    "doc_object_key" : "www.sec.gov/4ef3e98e6e66142c8f42f89f172cc2b2430fc5c6ae8774f8a27098585e3f61da/20260827T055722Z.bin",
+    "doc_sha256" : "5833d3f1427fddbc9459f2e7ef77d2b05f091637155902b7cd038df53a2e3dc9"
+  }, {
+    "accession" : "0001193125-26-316974",
+    "cik_int" : 6201,
+    "filed_at" : "2026-07-27",
+    "doc_object_key" : "www.sec.gov/1f17ee0252940d5293227b5e31daffa2d5d7b848502aac348578b4d449ecb54d/20260827T055723Z.bin",
+    "doc_sha256" : "92e911d76c42ae10052903395cc31f9a16be3c12454bf6019437a485aa8f8e67"
+  }, {
+    "accession" : "0001193125-26-316973",
+    "cik_int" : 6201,
+    "filed_at" : "2026-07-27",
+    "doc_object_key" : "www.sec.gov/3807ba6e2ec63fe97a450960f71d227288f9139f7ce3990dcc7770e2db5fdd1e/20260827T055723Z.bin",
+    "doc_sha256" : "e37b829d216cbe3cf0d56f852a7f0d6c7bd74b12e7d393ce20efa3a6b6e43710"
+  }, {
+    "accession" : "0001104659-26-086797",
+    "cik_int" : 1379006,
+    "filed_at" : "2026-07-27",
+    "doc_object_key" : "www.sec.gov/49e013bebeba5f9916889775c577897bbd865e41f8904b24b259eed19917e04a/20260827T055725Z.bin",
+    "doc_sha256" : "dab07c6b978e59205b78854452a080024c4476312ae19497ab46c6078aa198e3"
+  }, {
+    "accession" : "0001104659-26-086767",
+    "cik_int" : 1379006,
+    "filed_at" : "2026-07-27",
+    "doc_object_key" : "www.sec.gov/3a3813823a8dc325b3ba099856047b76251c0b29aa04fb9ddc5779b7c1450890/20260827T055725Z.bin",
+    "doc_sha256" : "7718a5430bcde6cfe818e68ef1950bb0ec1517d32d148f5c3bae19a0993718f3"
+  }, {
+    "accession" : "0001628280-26-049588",
+    "cik_int" : 1728951,
+    "filed_at" : "2026-07-24",
+    "doc_object_key" : "www.sec.gov/83b4643c5392ad12c96b4a1c0796901f95a42a55312804b5ae59cbede02af197/20260827T055726Z.bin",
+    "doc_sha256" : "b4d2280c343fc7d8411da4152b1eba154568bfc7ff10235a2efbf90944d32d29"
+  }, {
+    "accession" : "0001493152-26-034510",
+    "cik_int" : 1014763,
+    "filed_at" : "2026-07-24",
+    "doc_object_key" : "www.sec.gov/8708df4d3e4bfe4edc38065c5bd27ad6a3289432b3352e8d09d803f80e8cbfcf/20260827T055726Z.bin",
+    "doc_sha256" : "b075af5f2eddfe617c0f32d1d3cf5d343afff2fe2844da9a290125bbf4a1e114"
+  }, {
+    "accession" : "0001213900-26-081220",
+    "cik_int" : 1785566,
+    "filed_at" : "2026-07-24",
+    "doc_object_key" : "www.sec.gov/4c4790adf79e56f751a5a8a0af3dd23cfb9a620d058c8aa2b8c2487878a46b85/20260827T055727Z.bin",
+    "doc_sha256" : "0912a5e4d6e6fa991ce046d8cd5e5f19a93f8cc211d5aa9fac756f9f71f70ec7"
+  }, {
+    "accession" : "0001213900-26-081135",
+    "cik_int" : 1723980,
+    "filed_at" : "2026-07-24",
+    "doc_object_key" : "www.sec.gov/0db62c284078dc6d48b4b160e6636cbc55123d7ff7e62b67a71ae8f64179c15d/20260827T055727Z.bin",
+    "doc_sha256" : "4c82947d38f7d0d5909b8b68f012622c04f2ac7ef0c1dea336e8d49930912ec5"
+  }, {
+    "accession" : "0001213900-26-081046",
+    "cik_int" : 1795251,
+    "filed_at" : "2026-07-24",
+    "doc_object_key" : "www.sec.gov/eed0e106fc01136ed4ee362dc1ed583b577939f56f29ed54ebd6a4fb44be32a4/20260827T055728Z.bin",
+    "doc_sha256" : "d7870f1326a8355121ac9888e604b1eb3ec6a4f502def55e178b115da261d293"
+  }, {
+    "accession" : "0001193125-26-316045",
+    "cik_int" : 1200375,
+    "filed_at" : "2026-07-24",
+    "doc_object_key" : "www.sec.gov/a9f9d16c82b5516db8bb6441746cb54ffc8f3622978548b8a2f57799b41df346/20260827T055728Z.bin",
+    "doc_sha256" : "3c60564b5e5ccd51d572d0fdf4f969d349e0ecbc050b2cc03c178f05efbb18ff"
+  }, {
+    "accession" : "0001104659-26-086552",
+    "cik_int" : 1811216,
+    "filed_at" : "2026-07-24",
+    "doc_object_key" : "www.sec.gov/beb3dd4f3fd694abde664330169b687bdd37170bc841ba0d0724e3d8166a990e/20260827T055729Z.bin",
+    "doc_sha256" : "66d43edff89a68a1e8f8fe5274d707a882d196ce6b9f15a63403d1a39cbddbcf"
+  }, {
+    "accession" : "0001552781-26-000393",
+    "cik_int" : 1275168,
+    "filed_at" : "2026-07-23",
+    "doc_object_key" : "www.sec.gov/848d873e295920080dff8382343f71e145f8078347ce9d1c82ee752b5ec581d9/20260827T055729Z.bin",
+    "doc_sha256" : "0b64f8dc8cb72c1421188b2ac910922af25a2c424f07ca038c02c8e1eb1787c3"
+  }, {
+    "accession" : "0001493152-26-034403",
+    "cik_int" : 1983736,
+    "filed_at" : "2026-07-23",
+    "doc_object_key" : "www.sec.gov/67eb0f9890f7c03e06427dda678dc035c6de3fa7511f560e1ffc9de74eafb68b/20260827T055730Z.bin",
+    "doc_sha256" : "557ad924c6d3b5667b5e2d0a97abd0310572d5d835138ad11dc5671b1eec1cea"
+  }, {
+    "accession" : "0001213900-26-080653",
+    "cik_int" : 1949257,
+    "filed_at" : "2026-07-23",
+    "doc_object_key" : "www.sec.gov/5b3ab1112c4d203f4c2c776a27a7f599a55de8b9585c00c7b20ef5cff66ee035/20260827T055730Z.bin",
+    "doc_sha256" : "a1dfd1a8d873a86ebcb603b373a3579a6bc46657ff4213e23c5d586c4fd0a1c2"
+  }, {
+    "accession" : "0001213900-26-080581",
+    "cik_int" : 1106644,
+    "filed_at" : "2026-07-23",
+    "doc_object_key" : "www.sec.gov/84ea38b5bce6440536e39740afbde40b20ff422389d824a32a674113c5bc1408/20260827T055731Z.bin",
+    "doc_sha256" : "f6596445ef95cd6cb2313e1a05799b728fd69440c86985e8fc667e827bf8cc2f"
+  }, {
+    "accession" : "0001193125-26-314241",
+    "cik_int" : 1200375,
+    "filed_at" : "2026-07-23",
+    "doc_object_key" : "www.sec.gov/50b45e7051ce0d36d4dd8edaf8491d74c6d27aed9eacace76efa2595da264fc1/20260827T055731Z.bin",
+    "doc_sha256" : "5a8914d451e7e07c28f118b219b8c1265065dba7fca2713beea5b39c6db6f49e"
+  }, {
+    "accession" : "0001193125-26-314210",
+    "cik_int" : 1599298,
+    "filed_at" : "2026-07-23",
+    "doc_object_key" : "www.sec.gov/91ff1964b075045940420040149d5f4b5c15da08dbfaca324c524a50fe612ab6/20260827T055732Z.bin",
+    "doc_sha256" : "8350f21bde1d449a04d08fad9895a268baaed3ba3d015f8cd67740655cddd290"
+  }, {
+    "accession" : "0001193125-26-313766",
+    "cik_int" : 1244832,
+    "filed_at" : "2026-07-23",
+    "doc_object_key" : "www.sec.gov/113bb97c07787d25670be217a76c27bd83b4ff75f39b5ecd4e180290dd9c51d3/20260827T055732Z.bin",
+    "doc_sha256" : "ed493a279377b1b437600d6eaf249d42223953ab228ed33e37f15d737daf2843"
+  }, {
+    "accession" : "0001140361-26-029422",
+    "cik_int" : 2039060,
+    "filed_at" : "2026-07-23",
+    "doc_object_key" : "www.sec.gov/c9744827bcdb3803fcc1bd281b13f7efcb4e66351c9fcabcdd2886f59cbccffd/20260827T055733Z.bin",
+    "doc_sha256" : "4adf7d515bdf24c55cdb12c9cd4538c2ef52548c7c4849be797bc27c990c4440"
+  }, {
+    "accession" : "0001829126-26-007754",
+    "cik_int" : 1479419,
+    "filed_at" : "2026-07-22",
+    "doc_object_key" : "www.sec.gov/f3a86bd0c710b1197456dccfb7cc9c9ee76b4a066f9dc5ec15c0e21716afecc9/20260827T055733Z.bin",
+    "doc_sha256" : "8f4fb531b4fecd8e40913e03e5c254cd39f58d5d5f13c1e433a2f99f8c5c37d9"
+  }, {
+    "accession" : "0001493152-26-034161",
+    "cik_int" : 1847846,
+    "filed_at" : "2026-07-22",
+    "doc_object_key" : "www.sec.gov/44cf2ee8a7d96845e553fbbf566e06eb5cf6605ba18f12f6c742ee5ed126de5e/20260827T055734Z.bin",
+    "doc_sha256" : "a593c5a5c204f9bd039d5111f53390e8fcbb6b8b9f51d6e68d7d0542cc6e8c2c"
+  }, {
+    "accession" : "0001193125-26-312576",
+    "cik_int" : 1818794,
+    "filed_at" : "2026-07-22",
+    "doc_object_key" : "www.sec.gov/dbc0e3dcfc2ef33311a840f5291db770a8f22ac69f75451ba547ae7e1a878d2c/20260827T055735Z.bin",
+    "doc_sha256" : "4b59be40d70d89bb00cc4a08dcb3631b78b1c8c9056f8a10987277cb05a8ad52"
+  }, {
+    "accession" : "0001104659-26-085887",
+    "cik_int" : 1533998,
+    "filed_at" : "2026-07-22",
+    "doc_object_key" : "www.sec.gov/34628dbe53fd208b27da7beac3e8ac2d5388714ee99d53aa4af44b482a7c1d7c/20260827T055735Z.bin",
+    "doc_sha256" : "0f7d98f3499b5f8e6be97d2b479ca61ff7d88de02c53ffbfb25977291b3ae471"
+  }, {
+    "accession" : "0001104659-26-085812",
+    "cik_int" : 23217,
+    "filed_at" : "2026-07-22",
+    "doc_object_key" : "www.sec.gov/f8007cd3fe191b2c62941f258ca0185b62b1a8bd0d59f8bc7a588539348ca28f/20260827T055736Z.bin",
+    "doc_sha256" : "64e2676446512772929ab099aa7f0f725000754b547097754a901e6522847254"
+  }, {
+    "accession" : "0001104659-26-085487",
+    "cik_int" : 1698990,
+    "filed_at" : "2026-07-22",
+    "doc_object_key" : "www.sec.gov/8d803c12bbaeac1bfc1239276323e3b27dd1c1167af7bc09df7f89eb3424e155/20260827T055736Z.bin",
+    "doc_sha256" : "0cb66eeb9bc25d4bedd6884d741b2890f954dc460ab3d9dd967a404d4ceddffd"
+  }, {
+    "accession" : "0001493152-26-034114",
+    "cik_int" : 2027360,
+    "filed_at" : "2026-07-21",
+    "doc_object_key" : "www.sec.gov/11c1fa6e7833e4013a7d7af997ed82d56cf5810938db2643b5aa10e75d282f70/20260827T055737Z.bin",
+    "doc_sha256" : "82b9ba4e92be8138f597c5d662940a244f3c67c95aa2a592230af2ad2705d154"
+  }, {
+    "accession" : "0001213900-26-079834",
+    "cik_int" : 1606242,
+    "filed_at" : "2026-07-21",
+    "doc_object_key" : "www.sec.gov/14ec5a79af7383f94c386b01e6160ddf1c8dea60cd905f8c820259e0a57eda22/20260827T055737Z.bin",
+    "doc_sha256" : "4514579975c69b40cd3755b6651f80c44cd020ccc2957a222b521ade895f5c45"
+  }, {
+    "accession" : "0001193125-26-310573",
+    "cik_int" : 1818794,
+    "filed_at" : "2026-07-21",
+    "doc_object_key" : "www.sec.gov/4e74dec6ac38d5f487078d401f58f5a7858105f4bd490037b7f47e52f184dc0e/20260827T055738Z.bin",
+    "doc_sha256" : "483e9440dda07549056b75dabbb878950d625587e63ef09f65427cbd7df2383f"
+  }, {
+    "accession" : "0001193125-26-309635",
+    "cik_int" : 947263,
+    "filed_at" : "2026-07-21",
+    "doc_object_key" : "www.sec.gov/652b7fb800526b6b05aac96d2a58ecea214fb207eeec6e6ddd96b9e9ef9a0851/20260827T055738Z.bin",
+    "doc_sha256" : "842481ff9a5385e227e87375388480b3f51c71d92308a03c25ba581b4fffc2de"
+  }, {
+    "accession" : "0001193125-26-309633",
+    "cik_int" : 947263,
+    "filed_at" : "2026-07-21",
+    "doc_object_key" : "www.sec.gov/b7653ea1560da2ebf45ed009913867bb5cd2241a2e497f6adfe51083102630a9/20260827T055739Z.bin",
+    "doc_sha256" : "47003fed11917318be099df401c3ae944eae0e7f0ca52edacde9a42ba021e508"
+  }, {
+    "accession" : "0001140361-26-029064",
+    "cik_int" : 96223,
+    "filed_at" : "2026-07-21",
+    "doc_object_key" : "www.sec.gov/d591e107725308fcd1f1b0e39c7ef7068bd9ad8646657001b0db808d8eaa8449/20260827T055739Z.bin",
+    "doc_sha256" : "1ba475a0ea249d492803e70cbfac5055713c5af587c798a622fa91da5ffbb298"
+  }, {
+    "accession" : "0001140361-26-029060",
+    "cik_int" : 96223,
+    "filed_at" : "2026-07-21",
+    "doc_object_key" : "www.sec.gov/94f506173b98f3efc30f3bea1c43db57f3c6a35a03e563b0bfe956b5d0b4b671/20260827T055740Z.bin",
+    "doc_sha256" : "5c7e0bee649851d1a0929925d310617ea66deaa814932e1646fee89ac77093db"
+  }, {
+    "accession" : "0001104659-26-085242",
+    "cik_int" : 23217,
+    "filed_at" : "2026-07-21",
+    "doc_object_key" : "www.sec.gov/7867042427b0853c5d680117d5d2d552da34d985a456fd8374993ef0168543ad/20260827T055740Z.bin",
+    "doc_sha256" : "1007d81e2f65c3793135230414827c664f82334f76552ba27865a03e33721f54"
+  }, {
+    "accession" : "0001683168-26-005657",
+    "cik_int" : 1402328,
+    "filed_at" : "2026-07-20",
+    "doc_object_key" : "www.sec.gov/ced9ba109bea3199d4eaeede1f6404b82ccec349be1dcf46bba373c8a3967ad9/20260827T055741Z.bin",
+    "doc_sha256" : "d5914398113a74d917428c3983b0cbc3e5a0a3a9306b0011f62770e1ee0ea20f"
+  }, {
+    "accession" : "0001213900-26-079619",
+    "cik_int" : 1969401,
+    "filed_at" : "2026-07-20",
+    "doc_object_key" : "www.sec.gov/22192697d78d530a5216173921d36364027ce40fb811e8e5eda40420e56b9b62/20260827T055741Z.bin",
+    "doc_sha256" : "2a0634eacf620d2f12e98ff4cb15afa75eafadccebf9728467d9b2b353f2748e"
+  }, {
+    "accession" : "0001104659-26-085108",
+    "cik_int" : 1698990,
+    "filed_at" : "2026-07-20",
+    "doc_object_key" : "www.sec.gov/bde9931e71a1d77aab9e4b1b4c4e84fa6a815b8f7121100667398e80bda1d358/20260827T055742Z.bin",
+    "doc_sha256" : "3f8e9f8c59a8e057872a3a5352f8c2ccb5eb7c5275f40b27787aef3fa6c02001"
+  }, {
+    "accession" : "0001213900-26-079276",
+    "cik_int" : 1807166,
+    "filed_at" : "2026-07-17",
+    "doc_object_key" : "www.sec.gov/6f26f4cf785cc69f521a762d3983d99ff965d7dc4f81f9e33a01034056ef4711/20260827T055743Z.bin",
+    "doc_sha256" : "633e8808609280a3e3593f9555fce7726cac86134c452ac60e74af9ce5199e53"
+  }, {
+    "accession" : "0001193125-26-308027",
+    "cik_int" : 1590877,
+    "filed_at" : "2026-07-17",
+    "doc_object_key" : "www.sec.gov/03fec56f44a518db4aaef9cde50dc8c01933d289b7a0378ecd014c48ab6a18d9/20260827T055743Z.bin",
+    "doc_sha256" : "fa7645826f0d18d6dfbc321449a3ecc79ba543896bc1728bd6f748a1afa90f57"
+  }, {
+    "accession" : "0001193125-26-307859",
+    "cik_int" : 36270,
+    "filed_at" : "2026-07-17",
+    "doc_object_key" : "www.sec.gov/f7e4bb3860471b75015271d1ea5f469d301839eed5f6a69f6cc7b852d1d20e50/20260827T055744Z.bin",
+    "doc_sha256" : "4d90b3d2c8698e807af3db7e5bdc99edd1e62e68271c7077f5d6203ad6b4d2a9"
+  }, {
+    "accession" : "0001178913-26-003518",
+    "cik_int" : 1574565,
+    "filed_at" : "2026-07-17",
+    "doc_object_key" : "www.sec.gov/785912084bdb1064d3551d3479280136242d7b3b5229b08dca67c5065f058414/20260827T055744Z.bin",
+    "doc_sha256" : "7fec6d2c2fcba4ba2967cbf45790b807ab0023aae33c8bbe70a8d3a09a4290b6"
+  }, {
+    "accession" : "0001104659-26-084656",
+    "cik_int" : 1379006,
+    "filed_at" : "2026-07-17",
+    "doc_object_key" : "www.sec.gov/11bf9e32c183f0fbc4d003242f9b4afecdff245d061988a85d9c55e592ce5ac0/20260827T055745Z.bin",
+    "doc_sha256" : "81339c404856b4a96a2a297cb3e3241c946f727e6ad9e441c7888a972097a1a9"
+  }, {
+    "accession" : "0001104659-26-084619",
+    "cik_int" : 1346830,
+    "filed_at" : "2026-07-17",
+    "doc_object_key" : "www.sec.gov/0f36b9c0ebeb31ede1e11660435d38b7c4fcbc2f31a49d162922aade17c0467a/20260827T055745Z.bin",
+    "doc_sha256" : "a7c580e4b109fb2d1eb9bf30942451c62b33002c0a2de83b377040d083f40585"
+  }, {
+    "accession" : "0001104659-26-084419",
+    "cik_int" : 1582961,
+    "filed_at" : "2026-07-17",
+    "doc_object_key" : "www.sec.gov/87dc1aaa45fb436ed4900f027b1d407219960e6780041ef8d0533606e22b96fb/20260827T055746Z.bin",
+    "doc_sha256" : "d897f3a9f975fda021ecc33c6d3fd2da9bb0ba5bee97b1b3e4840a033c85200c"
+  }, {
+    "accession" : "0001628280-26-048384",
+    "cik_int" : 713676,
+    "filed_at" : "2026-07-16",
+    "doc_object_key" : "www.sec.gov/2493fa53905e1a9baf5880aa77ae27116c4c7a299f2f95a82c96e9eb7199eeb2/20260827T055746Z.bin",
+    "doc_sha256" : "015d969ba32994eea08f420191605ed15e18e8d4ac15ae677f87a07f25a571e6"
+  }, {
+    "accession" : "0001213900-26-078718",
+    "cik_int" : 2028293,
+    "filed_at" : "2026-07-16",
+    "doc_object_key" : "www.sec.gov/7dddb89a7e31a6f9670975493c8269dfe73072a893d5a287a1a66ae461db7d05/20260827T055747Z.bin",
+    "doc_sha256" : "3af345ebf00357359bf9c8b0c6b1dbd3c3998d1d8d3e9dc8a91039f4375db70a"
+  }, {
+    "accession" : "0001193125-26-306170",
+    "cik_int" : 1590877,
+    "filed_at" : "2026-07-16",
+    "doc_object_key" : "www.sec.gov/3ad4125992853d7cda418ad3d8796b3b2a33c4cd80574fcb8a29a42661f27786/20260827T055747Z.bin",
+    "doc_sha256" : "9601335b1cf7fff7b2a95acfea8d7ec8bf2518ec3828c28990ee1e53c89e2d10"
+  }, {
+    "accession" : "0001193125-26-305902",
+    "cik_int" : 1259380,
+    "filed_at" : "2026-07-16",
+    "doc_object_key" : "www.sec.gov/65c29cfc66fe0f5df50dc5ad6c5d4832ae671c10afdb123960b4975d5556c272/20260827T055748Z.bin",
+    "doc_sha256" : "a2c9da7c5752fdb43dc7f9d1ec40b374142663717e48f3fe65ac5cda4560f737"
+  }, {
+    "accession" : "0001193125-26-305481",
+    "cik_int" : 36270,
+    "filed_at" : "2026-07-16",
+    "doc_object_key" : "www.sec.gov/9bfa400edce1c6e5bc93df75efd54ec69354021615ee8aaa06c0799e4310499f/20260827T055748Z.bin",
+    "doc_sha256" : "86e132b1394ac2b003d12f57b8bd13a7d566cfe5e51274ff0f95e2ec1ce69bb6"
+  }, {
+    "accession" : "0001654954-26-006334",
+    "cik_int" : 829323,
+    "filed_at" : "2026-06-30",
+    "doc_object_key" : "www.sec.gov/eab38249f5e3b6ebcc287e13e3d9f500517fdad44e4a2824d74fd400dae0f2fa/20260827T055749Z.bin",
+    "doc_sha256" : "14bf1dabc1b59670606481f262e900d35883b3f6d6dcb9e07a92a74c58df92c3"
+  }, {
+    "accession" : "0001628280-26-046145",
+    "cik_int" : 1831481,
+    "filed_at" : "2026-06-30",
+    "doc_object_key" : "www.sec.gov/cffe11c8436d754194112244032899b18619a7b0b49d60f2299f3e2371c489a2/20260827T055749Z.bin",
+    "doc_sha256" : "ee0c00698f51a04c7288d0bd675aa315aa7d6226a105fddc08fcf561c48a7e0e"
+  }, {
+    "accession" : "0001628280-26-046144",
+    "cik_int" : 1831481,
+    "filed_at" : "2026-06-30",
+    "doc_object_key" : "www.sec.gov/acdc245f6051fcce51596f4765d9369ce1142f8e095d5f5925a8587d23ccdeda/20260827T055750Z.bin",
+    "doc_sha256" : "a7b776571df43b7908a26a29ea33b2dc9bec7571330f848cfc9120305b08984c"
+  }, {
+    "accession" : "0001493152-26-031284",
+    "cik_int" : 2010788,
+    "filed_at" : "2026-06-30",
+    "doc_object_key" : "www.sec.gov/598697b2fd7d92e7e8758f37cb415fad08f85bb736f91d6b8037102507b99991/20260827T055751Z.bin",
+    "doc_sha256" : "308d38f79fdd1aba79cba5ad936c1c2628fd9839b1491a48cc630dea5526f184"
+  }, {
+    "accession" : "0001477932-26-004094",
+    "cik_int" : 1701261,
+    "filed_at" : "2026-06-30",
+    "doc_object_key" : "www.sec.gov/12f356411bedd72392f4e7dc150d952b70d2ea2128cd6b955114ead38dd36662/20260827T055751Z.bin",
+    "doc_sha256" : "040af4bab23aa2134c57e4bb50332a0d275fcb74a385938ecf94f4a738172c85"
+  }, {
+    "accession" : "0001213900-26-073606",
+    "cik_int" : 1935172,
+    "filed_at" : "2026-06-30",
+    "doc_object_key" : "www.sec.gov/e3c6ccd9803a09e1b6a02a3ef1edca8df7a0242f202523e2ea90749cdf6b6fdb/20260827T055752Z.bin",
+    "doc_sha256" : "99dab5640658698becea6ece8e0a4d78a4e2bbe5569dbca51d4890f5703f79a3"
+  }, {
+    "accession" : "0001213900-26-073452",
+    "cik_int" : 1606242,
+    "filed_at" : "2026-06-30",
+    "doc_object_key" : "www.sec.gov/eb281f940059d6ec1b964823948019ab00213392f60c33c7fc18e323c75b158e/20260827T055752Z.bin",
+    "doc_sha256" : "83f1f7b38bfe598b32b5837cf417a7f6dddba502bdef1042476cec47857237e7"
+  }, {
+    "accession" : "0001213900-26-073451",
+    "cik_int" : 1606242,
+    "filed_at" : "2026-06-30",
+    "doc_object_key" : "www.sec.gov/5a23a963df4cdc3e1110429fa9980fa5ff9412fe933593522415302c29bc3152/20260827T055753Z.bin",
+    "doc_sha256" : "d834e9658c2f93033e7b55201e1c788752122e817d74731915820c3621b4d12f"
+  }, {
+    "accession" : "0001193125-26-290817",
+    "cik_int" : 1956827,
+    "filed_at" : "2026-06-30",
+    "doc_object_key" : "www.sec.gov/4f0aa88627723dc480488632f0cb026b743a979c1e3b74e5fdb058ce3f53eccd/20260827T055753Z.bin",
+    "doc_sha256" : "22d4b151a35c9c32e9c18a4522781c15f3ae51aa19eaaea9d95ba4556ee449fe"
+  }, {
+    "accession" : "0001193125-26-289514",
+    "cik_int" : 1687229,
+    "filed_at" : "2026-06-30",
+    "doc_object_key" : "www.sec.gov/1f00294abab1d5ddadffbcbfc4d2ec3aeed6260097b82665466b166fd0af29ab/20260827T055754Z.bin",
+    "doc_sha256" : "88485b68c2e17389b2b427a295229f960df0573478f8964ca15938a37821bfb2"
+  }, {
+    "accession" : "0001140361-26-026962",
+    "cik_int" : 96223,
+    "filed_at" : "2026-06-30",
+    "doc_object_key" : "www.sec.gov/5d0c65c4acb5ab91ad70cf7b6908453b537085995dd76004f6ddeeae10ca1f8c/20260827T055754Z.bin",
+    "doc_sha256" : "a27c70ad654443b98ca74854cd7a2abf6be32700f9a18f80b37063af7364d848"
+  }, {
+    "accession" : "0001140361-26-026961",
+    "cik_int" : 96223,
+    "filed_at" : "2026-06-30",
+    "doc_object_key" : "www.sec.gov/580926ccf6e98b532a8403b4738bba2666b07774fe4f430f41114f0a33016fe1/20260827T055755Z.bin",
+    "doc_sha256" : "ed332c2401e49a7317b61264d9abc052835402fb9ce73e66a9bc2eb2874f7bf7"
+  }, {
+    "accession" : "0001140361-26-026960",
+    "cik_int" : 96223,
+    "filed_at" : "2026-06-30",
+    "doc_object_key" : "www.sec.gov/150653b8f36e8bddfd851bde376ca4c3674c8c65c7a708cd8bad1a82b718a648/20260827T055755Z.bin",
+    "doc_sha256" : "5724e1515cde06478c2304d4a7678e211fd43b144c513576d8b11cfd4484aa91"
+  }, {
+    "accession" : "0001140361-26-026914",
+    "cik_int" : 96223,
+    "filed_at" : "2026-06-30",
+    "doc_object_key" : "www.sec.gov/9d93e5b2de2a307ef382d712121409c0d16ddbe07298ce89b1d52617b5af2519/20260827T055756Z.bin",
+    "doc_sha256" : "5fbc98c95f5f47f7df3684299c2c9a79dd096320746669be82f641fb6cd04adc"
+  }, {
+    "accession" : "0001140361-26-026912",
+    "cik_int" : 96223,
+    "filed_at" : "2026-06-30",
+    "doc_object_key" : "www.sec.gov/e3c0851c03cab729c684b1b42e59c6904d9a612c67970cf865a661b29d68c3c9/20260827T055757Z.bin",
+    "doc_sha256" : "1d30721bc245c79629f6bd5b3f571dc84bda61404a1024366e953db0c1f13eaf"
+  }, {
+    "accession" : "0001140361-26-026911",
+    "cik_int" : 96223,
+    "filed_at" : "2026-06-30",
+    "doc_object_key" : "www.sec.gov/7021de4dd28053c7b50c7127c78044ebe272e3d6c01e580758f197735b7aafc1/20260827T055757Z.bin",
+    "doc_sha256" : "1f2a012994c65b4d7d34c6c0395df6bbb0dd85ea3c83b9122f6b9bb6c56d09ed"
+  }, {
+    "accession" : "0001140361-26-026894",
+    "cik_int" : 96223,
+    "filed_at" : "2026-06-30",
+    "doc_object_key" : "www.sec.gov/9df0fe57d4dd4a1116daac3437f6bb49ad79725eb7b782df2897fe65f1dfe004/20260827T055758Z.bin",
+    "doc_sha256" : "0b0f2094522fe323ae10f84931b78b77b54cf9e144476f55823e19df17609ef8"
+  }, {
+    "accession" : "0001140361-26-026892",
+    "cik_int" : 96223,
+    "filed_at" : "2026-06-30",
+    "doc_object_key" : "www.sec.gov/0f3012dd6a28320e1dcf10a9bb573d4982f7c63395587574d1c5d7a02654fd93/20260827T055759Z.bin",
+    "doc_sha256" : "dcf659cad9d8e35b9c1678d551fe055c0c294e7a761ae804e2d19a04fbc8fdef"
+  }, {
+    "accession" : "0001140361-26-026887",
+    "cik_int" : 96223,
+    "filed_at" : "2026-06-30",
+    "doc_object_key" : "www.sec.gov/3411c781ee369f3c07dfb9a96d599e3b21a32f5f8073cea6769b925d6fc114ae/20260827T055759Z.bin",
+    "doc_sha256" : "00643257b45d4de60cc9d8fde0548589910a80ffe6a14da663e2549b7fc32759"
+  }, {
+    "accession" : "0001140361-26-026876",
+    "cik_int" : 96223,
+    "filed_at" : "2026-06-30",
+    "doc_object_key" : "www.sec.gov/9a7db51ad9c76c2cd0c109ca67af1241796fdbca8d7d80d66aa9512570c198a0/20260827T055801Z.bin",
+    "doc_sha256" : "3a131a077387444ca1bd7ce22afefbfb47c76538a82394face95d16e7c307cbf"
+  }, {
+    "accession" : "0001140361-26-026875",
+    "cik_int" : 96223,
+    "filed_at" : "2026-06-30",
+    "doc_object_key" : "www.sec.gov/afec8827f5d5f1065bcec79415f363f5aeb82083eca76a27ec39a16f2609e917/20260827T055801Z.bin",
+    "doc_sha256" : "ca0d0676b3a9e402a430287769fd5a0ff6f117325f397e53bc80cb65c8d63865"
+  }, {
+    "accession" : "0001140361-26-026868",
+    "cik_int" : 96223,
+    "filed_at" : "2026-06-30",
+    "doc_object_key" : "www.sec.gov/182a8a225368a288a120271187fc34f4c3013bf36f5e1f72bb106d7b050e3916/20260827T055802Z.bin",
+    "doc_sha256" : "75978bc88c65c6993b8eddd026aea42eb2748fc95234b99332ed1b5d591dbb56"
+  }, {
+    "accession" : "0001104659-26-079392",
+    "cik_int" : 726728,
+    "filed_at" : "2026-06-30",
+    "doc_object_key" : "www.sec.gov/abda3b5920339ba21d6c5a2d4756bcf40c89fc452e7bb2934b418f14b7e2bb46/20260827T055803Z.bin",
+    "doc_sha256" : "7aaf1f4c25754065f766818bdd52dc0333d602a739c31d2d737c2667c72b2e73"
+  }, {
+    "accession" : "0001104659-26-079359",
+    "cik_int" : 1875558,
+    "filed_at" : "2026-06-30",
+    "doc_object_key" : "www.sec.gov/385921a7c3140b1947443f19ff31ec017f4fb770402cb0c09dd66948a2138141/20260827T055803Z.bin",
+    "doc_sha256" : "da1aa02285f58695cc3c3380d4d50c737d376fd0499901fb274435560874361e"
+  }, {
+    "accession" : "0001104659-26-079353",
+    "cik_int" : 1025378,
+    "filed_at" : "2026-06-30",
+    "doc_object_key" : "www.sec.gov/dd8b63ad00f558b1ad5134d20cbaf2ba2be1b2ad99a3412140271e3ce4df2b9d/20260827T055804Z.bin",
+    "doc_sha256" : "0a970eac8d63034600a167c69105fb0cb6159f51cc2f37eb1167093bb1621af0"
+  }, {
+    "accession" : "0000950103-26-009829",
+    "cik_int" : 1805077,
+    "filed_at" : "2026-06-30",
+    "doc_object_key" : "www.sec.gov/790bf17993aa91555ade7917c19aac433d3b621675120c6be8110496b5319a6c/20260827T055804Z.bin",
+    "doc_sha256" : "2716f793e1c2cdc295ab9e7abcc9b90f0e5a2f101dd26562f5993672d1012d66"
+  }, {
+    "accession" : "0000950103-26-009742",
+    "cik_int" : 1805077,
+    "filed_at" : "2026-06-30",
+    "doc_object_key" : "www.sec.gov/5f2bf9cc816268d1b643047956c01a4b84220bf229a058591ea39d2352ee1a18/20260827T055805Z.bin",
+    "doc_sha256" : "c47043caecfb502c60dd453c568b9b38776345a5134887af91951e089f0581c2"
+  }, {
+    "accession" : "0001493152-26-031101",
+    "cik_int" : 1520358,
+    "filed_at" : "2026-06-29",
+    "doc_object_key" : "www.sec.gov/dd47e3135194a4dc16c4cdec8fc99954de3d4bbef49f5c2b1d738d49ea33990f/20260827T055805Z.bin",
+    "doc_sha256" : "ac74eb6aa298305d9e209ddafb176b57433a58a0505cca0b07b779a1577df49f"
+  }, {
+    "accession" : "0001493152-26-031068",
+    "cik_int" : 1947244,
+    "filed_at" : "2026-06-29",
+    "doc_object_key" : "www.sec.gov/2fc841b205d333ba4bc01126f0699e58fa71145e67f09991fb38f005f617ebc1/20260827T055806Z.bin",
+    "doc_sha256" : "34e21f4deff669bee5907adaf82e126b01a69cf3ce33fcef166555dd4f09ca42"
+  }, {
+    "accession" : "0001477932-26-004065",
+    "cik_int" : 1701261,
+    "filed_at" : "2026-06-29",
+    "doc_object_key" : "www.sec.gov/3d57db16141119b57ebf8a01158084fb810de4bd45dae1fb91f54dfc2bcc230b/20260827T055806Z.bin",
+    "doc_sha256" : "11052ea50a403417a66b709c0ceed3b573b4086e08e68f4f946a06eb54d98a33"
+  }, {
+    "accession" : "0001437749-26-021901",
+    "cik_int" : 1356093,
+    "filed_at" : "2026-06-29",
+    "doc_object_key" : "www.sec.gov/1b5699eab2f34b215777a2b4941b9c7c40551b0b932372650e7251f8544ddf7c/20260827T055807Z.bin",
+    "doc_sha256" : "50804cf97cee51340cabf841507fbe09dea1fcc290fb4e5d4e83fca7785a7b9f"
+  }, {
+    "accession" : "0001193125-26-288765",
+    "cik_int" : 2027317,
+    "filed_at" : "2026-06-29",
+    "doc_object_key" : "www.sec.gov/0b0cf5aa60c0211c9e80abf0be8df8cd240b873c0be88d8fa66a9829bb566512/20260827T055807Z.bin",
+    "doc_sha256" : "979b6593233fde54953c03bdb149e68e7b7669de26b85b84b4d81811feb1daad"
+  }, {
+    "accession" : "0001193125-26-287884",
+    "cik_int" : 1979887,
+    "filed_at" : "2026-06-29",
+    "doc_object_key" : "www.sec.gov/4e453228711026c899f8281f59f87b45f9d06dfbc92c4c40fc7b2cc4ca5f1c1d/20260827T055808Z.bin",
+    "doc_sha256" : "3e191c2ebe7c7966f066fc462294ecd8a8d1ab4d065dd3d49fa8d55eb13d68ec"
+  }, {
+    "accession" : "0001193125-26-286770",
+    "cik_int" : 1335730,
+    "filed_at" : "2026-06-29",
+    "doc_object_key" : "www.sec.gov/910901eb764dbaef8e84d72be2bed8f118889ef8bfa28e323df537905694385f/20260827T055808Z.bin",
+    "doc_sha256" : "0b88c5259abfdf90c2cff8c88a249b91606d56a7a6fc876a596ad4436a07d645"
+  }, {
+    "accession" : "0001193125-26-286734",
+    "cik_int" : 1022837,
+    "filed_at" : "2026-06-29",
+    "doc_object_key" : "www.sec.gov/089ba552c6650ac1e891dfce927a9966757cc25582fd13cac8fdbfdba380a8aa/20260827T055809Z.bin",
+    "doc_sha256" : "35862ac2c090d8cc66ae407637c71f89b1d4645ec2d7fd4006d8120fec133100"
+  }, {
+    "accession" : "0001178913-26-003349",
+    "cik_int" : 1553846,
+    "filed_at" : "2026-06-29",
+    "doc_object_key" : "www.sec.gov/6e6e38b042922384fd342ce22afe8cf2c3705bcc00effc7194740c3cbd38c93e/20260827T055809Z.bin",
+    "doc_sha256" : "2e0238470dccd222abd928ff38ef3e0eb1def390ae8c940c2d39549d621028b6"
+  }, {
+    "accession" : "0001140361-26-026764",
+    "cik_int" : 96223,
+    "filed_at" : "2026-06-29",
+    "doc_object_key" : "www.sec.gov/74a77649d108a45785e043326e8a47beff0fd9d74b4ca440bc71c987b8c23664/20260827T055810Z.bin",
+    "doc_sha256" : "276d07764e4cea4e7c799c76cbcbe6db7d197a6dd8385196447d83ceffaedb65"
+  }, {
+    "accession" : "0001140361-26-026749",
+    "cik_int" : 103730,
+    "filed_at" : "2026-06-29",
+    "doc_object_key" : "www.sec.gov/3bd65f6d00b0be20648b0e82061a5026414bf585f9411f8e5c04ce59659e3671/20260827T055810Z.bin",
+    "doc_sha256" : "089ecc5e6c018f64d0f2f042d74a0d7ee705902ea4ebaf6900ddf11e77e225a3"
+  }, {
+    "accession" : "0001104659-26-078864",
+    "cik_int" : 1875558,
+    "filed_at" : "2026-06-29",
+    "doc_object_key" : "www.sec.gov/25f70053329be81ea954c563c6bca803c6cc8623e169b62b8b741e9ddee2b4c8/20260827T055811Z.bin",
+    "doc_sha256" : "b940585940b16e4dbddd2c530f9b5839e7dd7b3388fce79c4594f4a412f4f9f9"
+  }, {
+    "accession" : "0001104659-26-078563",
+    "cik_int" : 1025378,
+    "filed_at" : "2026-06-29",
+    "doc_object_key" : "www.sec.gov/0d15a853d5eb919e0dbf62278e50c98f7c3f9f414e28918e7088bafa8e58bc4f/20260827T055811Z.bin",
+    "doc_sha256" : "0f5b05001421b87a7b881139f68c4ea55b5626f9ada0df14f2e96a32b58a675d"
+  }, {
+    "accession" : "0001104659-26-078420",
+    "cik_int" : 726728,
+    "filed_at" : "2026-06-29",
+    "doc_object_key" : "www.sec.gov/af7cdc468b828376d029ee7ecd78e59fe27b6fa90efd04071dab3a4bc94edfff/20260827T055812Z.bin",
+    "doc_sha256" : "c8878cd3f66c1d308e0f51a8491446d4e195d89fc9ddafa3be73bd2c2c44e185"
+  }, {
+    "accession" : "0000929638-26-002383",
+    "cik_int" : 1836995,
+    "filed_at" : "2026-06-29",
+    "doc_object_key" : "www.sec.gov/ce9abf485a6c2d8c9bf0ddfd99f8dad709aef15a0cd66808dc84857514eaccbb/20260827T055812Z.bin",
+    "doc_sha256" : "5f2d5361b428d9449af1966f6ba17d00d7db7527528b3ba1417809d28f961cbe"
+  }, {
+    "accession" : "0001493152-26-030339",
+    "cik_int" : 1947244,
+    "filed_at" : "2026-06-26",
+    "doc_object_key" : "www.sec.gov/7c0cbc56de7941a8d6ff2fabcf45e94c18581c996bde0b0feb9409898a00f51c/20260827T055813Z.bin",
+    "doc_sha256" : "2925d088de493b1e5c0aa8738eb93f19847daa31424285f9dadfbbf98089f857"
+  }, {
+    "accession" : "0001493152-26-030257",
+    "cik_int" : 1964946,
+    "filed_at" : "2026-06-26",
+    "doc_object_key" : "www.sec.gov/e0fc5efc13db90c17c50dea5f55e05d51e045ba943b210fe6371c8f36f40bc38/20260827T055813Z.bin",
+    "doc_sha256" : "f6deb60e370066721e6a5a21d5f8dedbfb649f04472f2b73d5d4573e0bffb4e8"
+  }, {
+    "accession" : "0001213900-26-072404",
+    "cik_int" : 1846715,
+    "filed_at" : "2026-06-26",
+    "doc_object_key" : "www.sec.gov/a83646c1c3623e7b5412350dd8960639e8850a56e3525b09dcfc129bfcf67870/20260827T055814Z.bin",
+    "doc_sha256" : "8f916de21767cf94bfadfed34e2d6114ce29a20b1891bded3c6391c10b1beb9b"
+  }, {
+    "accession" : "0001193125-26-285597",
+    "cik_int" : 316709,
+    "filed_at" : "2026-06-26",
+    "doc_object_key" : "www.sec.gov/ee729e087de8cfc30b65a8d2870e4f5cd580dd0dcbe15232d4c5c89f4d321c10/20260827T055814Z.bin",
+    "doc_sha256" : "133b8c50d6ca5f35c99bba3eaf7e38a24c8d8bea8eafee24a22b34fc4bbd5abf"
+  }, {
+    "accession" : "0001193125-26-285537",
+    "cik_int" : 1936224,
+    "filed_at" : "2026-06-26",
+    "doc_object_key" : "www.sec.gov/824d5048926f6eca185770328270e7e6cd6e5d902d35d802cfc53677fe41afaf/20260827T055815Z.bin",
+    "doc_sha256" : "b9385ae332fcfaff0b12100e633fe86fe2e1b457afe0aac201bf8449033f10bc"
+  }, {
+    "accession" : "0001193125-26-283981",
+    "cik_int" : 1853962,
+    "filed_at" : "2026-06-26",
+    "doc_object_key" : "www.sec.gov/b5ef015d777a1687359d9e8b2aa6d239751b407e3e309a80d8dfd0d1ebc3dd41/20260827T055815Z.bin",
+    "doc_sha256" : "c0d87550dafb0c9fa7cd92cd23d7babf10fe83d9a7551539ed8d279b66323fe0"
+  }, {
+    "accession" : "0001193125-26-283557",
+    "cik_int" : 1979887,
+    "filed_at" : "2026-06-26",
+    "doc_object_key" : "www.sec.gov/74317418e3a6382c164c2d01987c98adb833fd8947074c66a8dec809cd5065bd/20260827T055816Z.bin",
+    "doc_sha256" : "c34553c38c256873f0504a60a316c1a632e5bbe4e0db5c03de32fae847af1387"
+  }, {
+    "accession" : "0001104659-26-078297",
+    "cik_int" : 1657853,
+    "filed_at" : "2026-06-26",
+    "doc_object_key" : "www.sec.gov/33f8cde11673c7d80f73909884954fd14d7ae5ed7bf802ba9e88f189133060cc/20260827T055816Z.bin",
+    "doc_sha256" : "24a47a58ff24fa4fddb6f6345dc15893867e8bd76cd35ceaa465b8694bd29d67"
+  }, {
+    "accession" : "0001104659-26-078241",
+    "cik_int" : 812796,
+    "filed_at" : "2026-06-26",
+    "doc_object_key" : "www.sec.gov/f27f84a590cd832a1b36ee96dea2fc19932d65bfa8225e90ccdc209ba3fa0066/20260827T055817Z.bin",
+    "doc_sha256" : "782141796a970f0602e492a1ec1fa58d6add99f29c5f43f6ae12de1637c705cf"
+  }, {
+    "accession" : "0001104659-26-077891",
+    "cik_int" : 1612940,
+    "filed_at" : "2026-06-26",
+    "doc_object_key" : "www.sec.gov/8f26da6b796252e5560912ca3c97eddf24d9853816e4f837d7befda3f55f38ee/20260827T055817Z.bin",
+    "doc_sha256" : "4d0848bca2b9ad6b5d5eed8e9c87c62d88818d52284e0bb95ba2ad5d3514a38a"
+  }, {
+    "accession" : "0001079973-26-000879",
+    "cik_int" : 1350102,
+    "filed_at" : "2026-06-26",
+    "doc_object_key" : "www.sec.gov/b29358ac1059225d45fb6f7f48a93e26463908886f07eac17b6bf6f6bd84c92b/20260827T055818Z.bin",
+    "doc_sha256" : "305361f5651b1e92901662e115dff75cd2c35b8037b64bbfb4ab205767fcdf21"
+  }, {
+    "accession" : "0001062993-26-003367",
+    "cik_int" : 1889823,
+    "filed_at" : "2026-06-26",
+    "doc_object_key" : "www.sec.gov/b3b9294a76a59f5a22a3cc189c28ecf18516ca081c30e985bf03aed1a85f9a8b/20260827T055818Z.bin",
+    "doc_sha256" : "42a24ddc9a3c5aa5faaecdb2e69a39f0e5b38b27f6c45664a990574b353e1f29"
+  }, {
+    "accession" : "0001493152-26-030170",
+    "cik_int" : 2026353,
+    "filed_at" : "2026-06-25",
+    "doc_object_key" : "www.sec.gov/8f50420ee1bc8ad9549913dee456f771b1b6b3430406882e8e83c7acceb71416/20260827T055819Z.bin",
+    "doc_sha256" : "293ca8c4cb680b5c5056c6f74fac93b1f2fb87e691d32bd92b83ca87fa52ae5c"
+  }, {
+    "accession" : "0001213900-26-071836",
+    "cik_int" : 1985273,
+    "filed_at" : "2026-06-25",
+    "doc_object_key" : "www.sec.gov/2f03d3f3fc7412c3b7bb4f59d08579e3440ea4873da574ab0035d7c5c0f8877b/20260827T055819Z.bin",
+    "doc_sha256" : "bb4da22ea6581d7ad2cfdd8d59c7f3294f2353cc5f650ffb1926aaee060b78c5"
+  }, {
+    "accession" : "0001193125-26-282846",
+    "cik_int" : 1806310,
+    "filed_at" : "2026-06-25",
+    "doc_object_key" : "www.sec.gov/7cab554b485417eeda9a183671503af39fa4f73bca149d065cdbab0d41f37c05/20260827T055820Z.bin",
+    "doc_sha256" : "0d0c1b9d3a3b68ed5e091079fc3956cfdc03234b867126313b084235a8110164"
+  }, {
+    "accession" : "0001193125-26-282836",
+    "cik_int" : 316709,
+    "filed_at" : "2026-06-25",
+    "doc_object_key" : "www.sec.gov/1cd7524c972cb63ac9df1eeb4fd6c049c1b2bec4f860126f531ad16220d15fab/20260827T055820Z.bin",
+    "doc_sha256" : "185b03b773d1a392763833561a464c47614d56e358164074e8a63efdbda704b4"
+  }, {
+    "accession" : "0001193125-26-282753",
+    "cik_int" : 1289490,
+    "filed_at" : "2026-06-25",
+    "doc_object_key" : "www.sec.gov/2bafd14232c9a86be6be664bd49d3e58661aaefa41b07dc7a631c387159b9d30/20260827T055821Z.bin",
+    "doc_sha256" : "f4c34ef23331a11d83c5d451d74f6d79f7038b269f8e796b6792a9cae554bbd8"
+  }, {
+    "accession" : "0001193125-26-282410",
+    "cik_int" : 1551322,
+    "filed_at" : "2026-06-25",
+    "doc_object_key" : "www.sec.gov/a5c170e9c39a160d225794ea8f7606caf0182fd6fa004746e594ecc1d5922505/20260827T055821Z.bin",
+    "doc_sha256" : "94372e8a95d9270b1643104e88e37256cd43f3b521656838395bdb6d24b2b631"
+  }, {
+    "accession" : "0001193125-26-281815",
+    "cik_int" : 1811063,
+    "filed_at" : "2026-06-25",
+    "doc_object_key" : "www.sec.gov/2b01ea410aab53d37995852e4efdd3d0bebaa8ea51270d9e3d63c1dd9e4d4b24/20260827T055822Z.bin",
+    "doc_sha256" : "177afa7392bfb570a534ddb198793d0942a312288d99ac64b0b14de3b6dd575b"
+  }, {
+    "accession" : "0001185185-26-002650",
+    "cik_int" : 1879754,
+    "filed_at" : "2026-06-25",
+    "doc_object_key" : "www.sec.gov/b2762ba259f50c67fa1b2a0057c859218c0b1bdc88976a0795a0a81f2090c9bf/20260827T055822Z.bin",
+    "doc_sha256" : "7ffa839828d02bb31f6afcbe1d60a8a2754af53790bd76cb4364f0fbded43a5a"
+  }, {
+    "accession" : "0001493152-26-029854",
+    "cik_int" : 65770,
+    "filed_at" : "2026-06-24",
+    "doc_object_key" : "www.sec.gov/3e5c5412e447dd199d23ecc5f503e1227fd76e9f0f08fe2b6c4cea436f855a06/20260827T055823Z.bin",
+    "doc_sha256" : "965b3d1db33f94ad325c56f46c31ad0450c05d8a3b294d2e601a5b8f589c5a77"
+  }, {
+    "accession" : "0001213900-26-071586",
+    "cik_int" : 1821586,
+    "filed_at" : "2026-06-24",
+    "doc_object_key" : "www.sec.gov/384a041f164fb6fa69c8ec3f1d4db82c6d86037e4483d72f6a90fffd00a1d140/20260827T055823Z.bin",
+    "doc_sha256" : "258dc1673409c3338255af8b8e418c9522aa131289d3e76c378aaa257a2ac280"
+  }, {
+    "accession" : "0001213900-26-071382",
+    "cik_int" : 1641398,
+    "filed_at" : "2026-06-24",
+    "doc_object_key" : "www.sec.gov/8fdb2b24b2e3ea7827a86daad82e8e027d00d4cf4f9324adf0badb12773aa071/20260827T055824Z.bin",
+    "doc_sha256" : "1ef78d0ec0fe54abeddac4537966fb4d5e63b1940f8ad4d893615214553e3fed"
+  }, {
+    "accession" : "0001193125-26-281288",
+    "cik_int" : 1806310,
+    "filed_at" : "2026-06-24",
+    "doc_object_key" : "www.sec.gov/434054fe3ebca620f16d780a733327d54f29e6aa75c1e9b41820040d39b43edb/20260827T055824Z.bin",
+    "doc_sha256" : "7b332448d87cebddb38a4b4129fe47582600b52b0945b825034dc783824f53fb"
+  }, {
+    "accession" : "0001193125-26-281131",
+    "cik_int" : 1672688,
+    "filed_at" : "2026-06-24",
+    "doc_object_key" : "www.sec.gov/bce2a65d9016b62953c44f099cb1b1d9389fd9b9fe5e3e6322fd20f6b269707b/20260827T055834Z.bin",
+    "doc_sha256" : "a14ed84e107b183dabf75fdd7ba71df0e500dbee53612268cda2d9efe47384f7"
+  }, {
+    "accession" : "0001193125-26-280326",
+    "cik_int" : 1289490,
+    "filed_at" : "2026-06-24",
+    "doc_object_key" : "www.sec.gov/b5f5e03492c1e56c1c484dd1cbaa31651571e69629f6b39a38ddfcf7544a3999/20260827T055834Z.bin",
+    "doc_sha256" : "cb5fdfefd41efd6644ea204087b236d4adcb9b80aadb5db25b101352868083ee"
+  }, {
+    "accession" : "0001193125-26-280318",
+    "cik_int" : 92521,
+    "filed_at" : "2026-06-24",
+    "doc_object_key" : "www.sec.gov/8317e0014314bfda773b2078d3b4953f288028885550f012c51ca57d9c04bcba/20260827T055834Z.bin",
+    "doc_sha256" : "1fa3858099c3e6917437f2a4f5ce6a33b440ea6e8f82e68780d344bca4aab79d"
+  }, {
+    "accession" : "0001193125-26-280180",
+    "cik_int" : 1551322,
+    "filed_at" : "2026-06-24",
+    "doc_object_key" : "www.sec.gov/81632c5b4e944c92432613be60c6efece45540ddfca217c42148d98f2bf6ae68/20260827T055835Z.bin",
+    "doc_sha256" : "50ece3624c11dc6398d546572389e33d5f470b0ff23b57e8232e0370c9703e58"
+  }, {
+    "accession" : "0001104659-26-077349",
+    "cik_int" : 1813814,
+    "filed_at" : "2026-06-24",
+    "doc_object_key" : "www.sec.gov/34c49b0c4a7d93ae9abf68f4a29673774fcc6806a3bc843b79f70290f8b94e97/20260827T055835Z.bin",
+    "doc_sha256" : "230c68ceeed00e56110b6885871b9ae311005e705d0163a87c0b0e490111f6c8"
+  }, {
+    "accession" : "0001104659-26-077336",
+    "cik_int" : 1590560,
+    "filed_at" : "2026-06-24",
+    "doc_object_key" : "www.sec.gov/b101c4b5f37dd8c467e31b3784bf8361aec7ca334d7e9e971f3d26383ecbcc7c/20260827T055835Z.bin",
+    "doc_sha256" : "5e41b806810006f3063153cbf1b9c52dac6c699c52239bcdda14349865706ea1"
+  }, {
+    "accession" : "0001829126-26-006779",
+    "cik_int" : 1467761,
+    "filed_at" : "2026-06-23",
+    "doc_object_key" : "www.sec.gov/b05d6b10ddcfb7ccf5cd64e6b7912459c36ec062078fe85ba5e8656c2fff5447/20260827T055836Z.bin",
+    "doc_sha256" : "cc397ceb6c68217e37382d8816a630c699fea5357931845cfbd569e9825dd144"
+  }, {
+    "accession" : "0001493152-26-029734",
+    "cik_int" : 1981535,
+    "filed_at" : "2026-06-23",
+    "doc_object_key" : "www.sec.gov/829b71badfddf2c1048a0f0c5231fc186b45fa40275d03bb5518563f62ce21f2/20260827T055837Z.bin",
+    "doc_sha256" : "a839c03346933553c27319d5a17f4a80d6700d64c89408c34f7b9fabba04c651"
+  }, {
+    "accession" : "0001493152-26-029724",
+    "cik_int" : 1789192,
+    "filed_at" : "2026-06-23",
+    "doc_object_key" : "www.sec.gov/287686acc238cdbc04582c849cb6e9db5dc1bbea35878e14034b7fd53ef97c89/20260827T055837Z.bin",
+    "doc_sha256" : "6c31b33eeea75a7d9ef9faa43fd2a9be7960ac7d300e9f7ef694989a36be6121"
+  }, {
+    "accession" : "0001213900-26-071103",
+    "cik_int" : 1848275,
+    "filed_at" : "2026-06-23",
+    "doc_object_key" : "www.sec.gov/d5af3a9ac8b1d113928e1fa0dbd297f5ce090b571cb40f9d79b76a0844c100fc/20260827T055838Z.bin",
+    "doc_sha256" : "ff50ad6aa8cc451c144e987a5cbb0992bdb24fb48df15cb85b2ccb8cd37847d3"
+  }, {
+    "accession" : "0001213900-26-070815",
+    "cik_int" : 1819493,
+    "filed_at" : "2026-06-23",
+    "doc_object_key" : "www.sec.gov/30178165e30c0956fd2689bbd47846b5aa6c777ba3968545c044c90dbea0c0ce/20260827T055838Z.bin",
+    "doc_sha256" : "093d4f54fe530b965ecfb6081dce093f2abdd3e3fe3c004821123dffbac39622"
+  }, {
+    "accession" : "0001193125-26-279602",
+    "cik_int" : 1050446,
+    "filed_at" : "2026-06-23",
+    "doc_object_key" : "www.sec.gov/576920029e4c8dd9fe47c5f093d785fc71507bbd353fcc02d68887cfaf2896d9/20260827T055839Z.bin",
+    "doc_sha256" : "8524a07027478f3f60e21b95a56b660d61fea496772aea02c2b218681a5979aa"
+  }, {
+    "accession" : "0001193125-26-278585",
+    "cik_int" : 1341439,
+    "filed_at" : "2026-06-23",
+    "doc_object_key" : "www.sec.gov/77c7cf934f66ac3d5865e9be228dbe3261c2430a26e63e010d3f9592d861b864/20260827T055839Z.bin",
+    "doc_sha256" : "6fd0ee6e137263d5e86096f4b3e3a938c9a7840056b1ad12986c24dc6b1811c9"
+  }, {
+    "accession" : "0001193125-26-278473",
+    "cik_int" : 1163653,
+    "filed_at" : "2026-06-23",
+    "doc_object_key" : "www.sec.gov/88f5367b9c0443cee21dadecde6157c68a5056b7a04858fa12900874a91c6747/20260827T055840Z.bin",
+    "doc_sha256" : "ed72ba8a767489a0934c191e62380063d3d0c4302737aa74f89ecb1ddd00f3b7"
+  }, {
+    "accession" : "0001171843-26-004236",
+    "cik_int" : 1370416,
+    "filed_at" : "2026-06-23",
+    "doc_object_key" : "www.sec.gov/621e1bafd49469681defbc68303eedf037c013218d492a45cf0f1bce93d6ceb8/20260827T055840Z.bin",
+    "doc_sha256" : "5b4f8366cde4ed384588ead2233c589da5a3e0ff21be752da9feb79a0e3e7f30"
+  }, {
+    "accession" : "0001104659-26-076815",
+    "cik_int" : 315256,
+    "filed_at" : "2026-06-23",
+    "doc_object_key" : "www.sec.gov/68d3b92ea324df0853a16dabb4292490e9c5ac7342976377baa685daa4546c6e/20260827T055841Z.bin",
+    "doc_sha256" : "13964b49a4b93d9bb8ab77ad57caec74f9f0de0961e622fba281ce288e69584e"
+  }, {
+    "accession" : "0001104659-26-076650",
+    "cik_int" : 1411579,
+    "filed_at" : "2026-06-23",
+    "doc_object_key" : "www.sec.gov/ed6a60186c9f2580c6068d54c9bd042f03832788216d6febec425d9da7befe03/20260827T055841Z.bin",
+    "doc_sha256" : "6d15ec804b35d00c0e85dbb223a95255da275a33e14c59861d3a803fdef98243"
+  }, {
+    "accession" : "0001493152-26-029639",
+    "cik_int" : 1584831,
+    "filed_at" : "2026-06-22",
+    "doc_object_key" : "www.sec.gov/64b809acf0d426c184173f4eb45743359fdb9f53c2be54ec348d3b237004b66c/20260827T055842Z.bin",
+    "doc_sha256" : "3caba29164479808a211c6b35c90827c3eb389276610e88776bc276156f1802c"
+  }, {
+    "accession" : "0001575872-26-000378",
+    "cik_int" : 1851491,
+    "filed_at" : "2026-05-29",
+    "doc_object_key" : "www.sec.gov/1077147faa71cd4556b72dbe516440639f075ea7524d3f383ec71479a8bbb851/20260827T055842Z.bin",
+    "doc_sha256" : "d670fdb956e06a42f6e6b1f94577e9f89911aae7094f1dd18d594de8dda515e2"
+  }, {
+    "accession" : "0001493152-26-025698",
+    "cik_int" : 2010788,
+    "filed_at" : "2026-05-29",
+    "doc_object_key" : "www.sec.gov/c36db450159df63798f53c3d822e7665ceb8e4d9ae27f4fe63cf73db24c965c4/20260827T055843Z.bin",
+    "doc_sha256" : "b3763c5c44c6e5c4a65ac02f6454f4c936176c1fb7dea4464cc565ab7271db49"
+  }, {
+    "accession" : "0001437749-26-018805",
+    "cik_int" : 814676,
+    "filed_at" : "2026-05-29",
+    "doc_object_key" : "www.sec.gov/1719ea72ccde2830b4f0816b6c364bc1371c1a9de9231c933b49d2acc48f8000/20260827T055843Z.bin",
+    "doc_sha256" : "cf5ce379f8f8476d4800ddd40ba2d0fe753de495d7a3b190b05958ec63c0f0b4"
+  }, {
+    "accession" : "0001193125-26-248884",
+    "cik_int" : 931148,
+    "filed_at" : "2026-05-29",
+    "doc_object_key" : "www.sec.gov/06d447101e9694468eda9a135de0050d239b830324a03a96c17a5195c466ab03/20260827T055844Z.bin",
+    "doc_sha256" : "bdac10ebe4a93341f19e5a8a967858e528b3a6e68804892812a0c25ae2249330"
+  }, {
+    "accession" : "0001193125-26-248381",
+    "cik_int" : 1616678,
+    "filed_at" : "2026-05-29",
+    "doc_object_key" : "www.sec.gov/bab93e3831ab5efc6d904131624bdab9be229b26c8776db56eceeaa57b2da996/20260827T055845Z.bin",
+    "doc_sha256" : "dccbe2ce3b88c94d5d225c139b4f5444d00e1134a25bf442b8e6a9e8325871d1"
+  }, {
+    "accession" : "0001193125-26-247471",
+    "cik_int" : 722803,
+    "filed_at" : "2026-05-29",
+    "doc_object_key" : "www.sec.gov/b3e96132254d336729b65a6262654191e418ac6447843a87e2d5732f716e73a1/20260827T055846Z.bin",
+    "doc_sha256" : "d20129887ebf24002f90952fa5524b1ced54d2d7b437052904775f70251d1c26"
+  }, {
+    "accession" : "0001104659-26-068286",
+    "cik_int" : 1126328,
+    "filed_at" : "2026-05-29",
+    "doc_object_key" : "www.sec.gov/ed82deb229ec2303675d30b8887ae71791732feed42a8d1ae3fc81cc5a276373/20260827T055846Z.bin",
+    "doc_sha256" : "cafc19b51b8f8ec87c773f2433cdc62bea2a3e5203eb466dc3b980ad5989ead5"
+  }, {
+    "accession" : "0001104659-26-067917",
+    "cik_int" : 1649989,
+    "filed_at" : "2026-05-29",
+    "doc_object_key" : "www.sec.gov/ba6e73cfa318e129f1523ee438876d0cc358c167c5046771f576877fa5a24ea6/20260827T055847Z.bin",
+    "doc_sha256" : "ebcb8d77bdf2fc553d1617b8f3c9361b088457acdbfb985848406495edbf1b39"
+  }, {
+    "accession" : "0001493152-26-025627",
+    "cik_int" : 1879726,
+    "filed_at" : "2026-05-28",
+    "doc_object_key" : "www.sec.gov/7de226389321e1c7c181f9db57a37617289b6204e360fd2e85629e2354670d42/20260827T055848Z.bin",
+    "doc_sha256" : "08bb5cba0f89e86f849f59677ef1f9ee831107f7b17bcb1b53ff02398b7c9543"
+  }, {
+    "accession" : "0001214659-26-006817",
+    "cik_int" : 896493,
+    "filed_at" : "2026-05-28",
+    "doc_object_key" : "www.sec.gov/3495a6654b00a1003195a1b69bef70ddc705b75404311671b66c51bef4fa1d4f/20260827T055848Z.bin",
+    "doc_sha256" : "affed1a80c1305fe7a3eff07304779eb0fb99585b1be5e72d65d6ea0b6103747"
+  }, {
+    "accession" : "0001213900-26-062153",
+    "cik_int" : 1359931,
+    "filed_at" : "2026-05-28",
+    "doc_object_key" : "www.sec.gov/87b51726b5eecce1e9ba642849968785949a470501fcad34ee04782a8896c4e9/20260827T055849Z.bin",
+    "doc_sha256" : "bc624c76fe4b5477c8acb1db6b74dc41301129b3d5e77c22fc40f2eb254b50ce"
+  }, {
+    "accession" : "0001193125-26-243848",
+    "cik_int" : 891478,
+    "filed_at" : "2026-05-28",
+    "doc_object_key" : "www.sec.gov/ab68c2dec9788e7e7768d8bab81c605445f613065213a6d427a8a8e769a3547a/20260827T055849Z.bin",
+    "doc_sha256" : "85278fabec099eda84b186e2c01e2ab4c547bd01eaafd8bcc41e20d6fc985744"
+  }, {
+    "accession" : "0001140361-26-023150",
+    "cik_int" : 1967680,
+    "filed_at" : "2026-05-28",
+    "doc_object_key" : "www.sec.gov/a2193487abbff4dca3e52b08de187fbf009b6100b6cad99eff7c1923b4fe0784/20260827T055850Z.bin",
+    "doc_sha256" : "26ac65c57885d158ec926a9aff268730f4f97ec02a6815c931dacf006d252641"
+  }, {
+    "accession" : "0001104659-26-067644",
+    "cik_int" : 812796,
+    "filed_at" : "2026-05-28",
+    "doc_object_key" : "www.sec.gov/1aefe21cac28d8c1802ed66f4aa7e1762055e83e810fe628e027b0ab48fe92ba/20260827T055850Z.bin",
+    "doc_sha256" : "d21e04a04cc7b5954f3c336634ac4a01f5af79a56d9ecdf5cd7da2e8c23a093b"
+  }, {
+    "accession" : "0001104659-26-067545",
+    "cik_int" : 1434524,
+    "filed_at" : "2026-05-28",
+    "doc_object_key" : "www.sec.gov/29d1d040fd9a8569a404249ffea3a4a862497e87b6e98e46d2765fbd258ebba5/20260827T055851Z.bin",
+    "doc_sha256" : "ebc17788d7edb8a49f01576a59900b271a0b0beb8901227730b4cbc6382c6944"
+  }, {
+    "accession" : "0001683168-26-004319",
+    "cik_int" : 1748137,
+    "filed_at" : "2026-05-27",
+    "doc_object_key" : "www.sec.gov/2ec0dea9209dda3259c2a877a5dd20bdcadbdca62a4639e90ba8fddf21f42ce7/20260827T055851Z.bin",
+    "doc_sha256" : "db75439c93c0de6cd4e7c72bee8420c00035d58495896f3364125b8d6c0b0e13"
+  }, {
+    "accession" : "0001213900-26-061613",
+    "cik_int" : 1711786,
+    "filed_at" : "2026-05-27",
+    "doc_object_key" : "www.sec.gov/6358fc32c5c6291b28f260c508cac4dc15d35d2527a4547ef3d2610bc2bb1d75/20260827T055852Z.bin",
+    "doc_sha256" : "5f0e9bf0fbce81a5c84e585e0358c625d0ee0ca85ee07fe9f3a8dc75cfabce7b"
+  }, {
+    "accession" : "0001213900-26-061254",
+    "cik_int" : 1930021,
+    "filed_at" : "2026-05-27",
+    "doc_object_key" : "www.sec.gov/ff339466328875c5fe376da518355a7854724dc31716c13530fed5721d957d8d/20260827T055852Z.bin",
+    "doc_sha256" : "d0d46c49002a5fbe20b72973958120ca7269ab25de761f574c83ba16018fff54"
+  }, {
+    "accession" : "0001193125-26-242060",
+    "cik_int" : 1479615,
+    "filed_at" : "2026-05-27",
+    "doc_object_key" : "www.sec.gov/880080907b49d43c388e4cf59f315a05f2c64cf6bc952a3e29b5f99d57ed2773/20260827T055853Z.bin",
+    "doc_sha256" : "52c14f8dec77f8f3c76fd4413d2c4a19e32d2cfca42ed07dcafff33bf9d3aa15"
+  }, {
+    "accession" : "0001193125-26-241936",
+    "cik_int" : 1978954,
+    "filed_at" : "2026-05-27",
+    "doc_object_key" : "www.sec.gov/a0a884b2bb4191bd35fc2b6cc26dfbfad96e15366b7f3e530e04eef64ae96781/20260827T055853Z.bin",
+    "doc_sha256" : "d69ed6c88ac8405a98833f70b3de2366ed7300ef2a269f71c6e5618580a2fa63"
+  }, {
+    "accession" : "0001193125-26-241915",
+    "cik_int" : 1598646,
+    "filed_at" : "2026-05-27",
+    "doc_object_key" : "www.sec.gov/aa6f868d42ee26e28b895290f4204565d1d0b2f3aec2963c1863ddb021f9f8c7/20260827T055854Z.bin",
+    "doc_sha256" : "ddc7e92bc0d72fbd0d67093bddea39dab8536b516fe959843ef04b0e632a161b"
+  }, {
+    "accession" : "0001193125-26-240570",
+    "cik_int" : 70145,
+    "filed_at" : "2026-05-27",
+    "doc_object_key" : "www.sec.gov/4c30f46115506afc8051453b80ce8736fa11b50028a3cc9ff057252376fe916b/20260827T055854Z.bin",
+    "doc_sha256" : "97877258dac03e5399657b215835cb8d4556083c41865364cad25bb7496b54fd"
+  }, {
+    "accession" : "0001193125-26-240360",
+    "cik_int" : 891478,
+    "filed_at" : "2026-05-27",
+    "doc_object_key" : "www.sec.gov/d8659d11d59e0a0d296d47b6cc336e6181a0ae80f7ca6c243e104935571c6ab1/20260827T055855Z.bin",
+    "doc_sha256" : "ac9cddf0468e9a956c661d048bc8bb412fbb1306f050ffcb2e9db048032447e3"
+  }, {
+    "accession" : "0001193125-26-239968",
+    "cik_int" : 1856725,
+    "filed_at" : "2026-05-27",
+    "doc_object_key" : "www.sec.gov/2f75fc454e96a288f32a668f0bd2c964b8f2c15cbe7db0b0480eee72e8ac8df4/20260827T055855Z.bin",
+    "doc_sha256" : "9cd10eff06bbe6ec19d1cbb0e89abf22164bc509b0c7dc2c206f960a6a3e451b"
+  } ]
+}

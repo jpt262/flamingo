@@ -1,0 +1,150 @@
+{
+  "fixture_version": 1,
+  "scenario": "current",
+  "as_of": "2026-08-27",
+  "issuer": {
+    "cik": "0009000001",
+    "entity_name": "Synthetic Current Corp"
+  },
+  "state": {
+    "filings": [
+      {
+        "accession": "0000900001-26-000001",
+        "form_type": "10-K",
+        "filed_at": "2026-03-15",
+        "period_of_report": "2025-12-31"
+      },
+      {
+        "accession": "0000900001-26-000002",
+        "form_type": "10-Q",
+        "filed_at": "2026-08-01",
+        "period_of_report": "2026-06-30"
+      }
+    ],
+    "facts": [
+      {
+        "taxonomy": "dei",
+        "tag": "EntityCommonStockSharesOutstanding",
+        "value": 250000000,
+        "unit": "shares",
+        "instant": true,
+        "period_end": "2026-08-01",
+        "fy": 2026,
+        "fp": "Q2"
+      },
+      {
+        "taxonomy": "us-gaap",
+        "tag": "CommonStockSharesAuthorized",
+        "value": 500000000,
+        "unit": "shares",
+        "instant": true,
+        "period_end": "2025-12-31",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      {
+        "taxonomy": "us-gaap",
+        "tag": "CommonStockSharesIssued",
+        "value": 240000000,
+        "unit": "shares",
+        "instant": true,
+        "period_end": "2025-12-31",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      {
+        "taxonomy": "us-gaap",
+        "tag": "CashAndCashEquivalentsAtCarryingValue",
+        "value": 42500000,
+        "unit": "USD",
+        "instant": true,
+        "period_end": "2025-12-31",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      {
+        "taxonomy": "us-gaap",
+        "tag": "StockholdersEquity",
+        "value": 88000000,
+        "unit": "USD",
+        "instant": true,
+        "period_end": "2025-12-31",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      {
+        "taxonomy": "dei",
+        "tag": "EntityPublicFloat",
+        "value": 310000000,
+        "unit": "USD",
+        "instant": true,
+        "period_end": "2026-08-01",
+        "fy": 2026,
+        "fp": "Q2"
+      },
+      {
+        "taxonomy": "us-gaap",
+        "tag": "LongTermDebt",
+        "value": 5000000,
+        "unit": "USD",
+        "instant": true,
+        "period_end": "2025-12-31",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      {
+        "taxonomy": "us-gaap",
+        "tag": "AssetsCurrent",
+        "value": 61000000,
+        "unit": "USD",
+        "instant": true,
+        "period_end": "2025-12-31",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      {
+        "taxonomy": "us-gaap",
+        "tag": "LiabilitiesCurrent",
+        "value": 12300000,
+        "unit": "USD",
+        "instant": true,
+        "period_end": "2025-12-31",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      {
+        "taxonomy": "us-gaap",
+        "tag": "Revenues",
+        "value": 48000000,
+        "unit": "USD",
+        "instant": false,
+        "period_start": "2025-01-01",
+        "period_end": "2025-12-31",
+        "fy": 2025,
+        "fp": "FY"
+      },
+      {
+        "taxonomy": "us-gaap",
+        "tag": "NetIncomeLoss",
+        "value": 3100000,
+        "unit": "USD",
+        "instant": false,
+        "period_start": "2025-01-01",
+        "period_end": "2025-12-31",
+        "fy": 2025,
+        "fp": "FY"
+      }
+    ],
+    "instruments": [],
+    "signals": {
+      "auditor_on_record": true,
+      "going_concern_language": false
+    }
+  },
+  "expected_flags": [],
+  "analyst_judgment": {
+    "analyst": "synthetic-analyst-1",
+    "flags": [],
+    "notes": "Clean, current, auditor present, capitalization sane. True-negative case."
+  }
+}

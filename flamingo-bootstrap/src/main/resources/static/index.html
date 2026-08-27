@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>FLAMINGO — Operator Cockpit</title>
+<style>
+  :root{--bg:#0b0e14;--panel:#131826;--edge:#232c42;--ink:#dbe4f5;--dim:#7d8aa8;
+        --ok:#3fd68f;--warn:#ffb454;--bad:#ff5d73;--acc:#6ea8fe}
+  *{box-sizing:border-box;margin:0}
+  body{background:var(--bg);color:var(--ink);
+       font:14px/1.45 "Cascadia Code",Consolas,ui-monospace,monospace;
+       padding:18px;display:flex;flex-direction:column;gap:14px;height:100vh}
+  header{display:flex;align-items:baseline;gap:12px;border-bottom:1px solid var(--edge);padding-bottom:10px}
+  header h1{font-size:16px;letter-spacing:.12em;color:var(--acc)}
+  .pill{border:1px solid var(--edge);border-radius:999px;padding:2px 10px;font-size:11px;color:var(--dim)}
+  .pill.ok{color:var(--ok);border-color:var(--ok)}
+  .pill.bad{color:var(--bad);border-color:var(--bad)}
+  main{display:grid;grid-template-columns:280px 1fr 340px;gap:14px;flex:1;min-height:0}
+  section{background:var(--panel);border:1px solid var(--edge);border-radius:10px;padding:12px;overflow:auto}
+  h2{font-size:11px;text-transform:uppercase;letter-spacing:.14em;color:var(--dim);margin-bottom:10px}
+  table{width:100%;border-collapse:collapse;font-size:12.5px}
+  td,th{text-align:left;padding:4px 6px;border-bottom:1px solid var(--edge)}
+  th{color:var(--dim);font-weight:normal}
+  .k{color:var(--dim)} .v{color:var(--ink)} .mono{font-size:11px}
+  .bar{height:8px;background:var(--edge);border-radius:99px;overflow:hidden;margin:6px 0}
+  .bar>div{height:100%;background:var(--acc);width:0%}
+  #log{white-space:pre-wrap;color:var(--dim);font-size:11.5px}
+</style>
+</head>
+<body>
+<header>
+  <h1>FLAMINGO</h1><span class="pill" id="chain">chain …</span>
+  <span class="pill" id="net">LIVE_NET=0</span>
+  <span style="flex:1"></span>
+  <span class="pill mono" id="store">rawstore …</span>
+</header>
+<main>
+  <section id="stats"><h2>Trunk state</h2><table id="statT"></table></section>
+  <section id="filingsPanel">
+    <h2>Recent filings — live from Postgres</h2>
+    <table id="filT"></table>
+  </section>
+  <section>
+    <h2>Golden corpus (T-05)</h2>
+    <div class="k">indexed / target</div>
+    <div class="v" id="gcount">0 / 200</div>
+    <div class="bar"><div id="gbar"></div></div>
+    <div class="k">index + SHA256SUMS under tests/golden/</div>
+    <h2 style="margin-top:14px">Actions</h2>
+    <table>
+      <tr><td class="k">corpus build</td><td class="v mono">mvnw … GoldenCorpusJob</td></tr>
+      <tr><td class="k">smoke (owner-gated)</td><td class="v mono">livenet=true</td></tr>
+    </table>
+    <h2 style="margin-top:14px">Event log</h2>
+    <div id="log">cockpit attached…</div>
+  </section>
+</main>
+<script>
+const $=id=>document.getElementById(id);
+function pill(id,text,cls){const e=$(id);e.textContent=text;e.className='pill '+(cls||'');}
+async function j(url){return (await fetch(url)).json();}
+async function tick(){
+  try{
+    const s=await j('/api/status');
+    const chainOk=s.chain==='SOUND';
+    pill('chain','chain '+s.chain.toLowerCase(),chainOk?'ok':'bad');
+    $('store').textContent=`rawstore ${s.rawstore.evidence_files} files · ${s.rawstore.root}`;
+    const rows=[['companies',s.companies],['filings',s.filings],
+      ['evidence_refs',s.evidence_refs],['facts',s.facts],['manifests',s.manifests]];
+    $('statT').innerHTML=rows.map(r=>`<tr><td class="k">${r[0]}</td><td class="v">${r[1]}</td></tr>`).join('');
+    const g=s.golden||{};const pct=Math.min(100,(g.indexed||0)*100/(g.target_hint||200));
+    $('gcount').textContent=(g.indexed||0)+' / '+(g.target_hint||200);
+    $('gbar').style.width=pct+'%';
+    const f=await j('/api/filings');
+    $('filT').innerHTML='<tr><th>filed</th><th>form</th><th>entity</th><th>accession</th></tr>'+
+      f.map(r=>`<tr><td>${(r.filed||'').slice(0,10)}</td><td>${r.form}</td>`+
+      `<td>${(r.entity||'').slice(0,28)}</td><td class="mono">${r.accession}</td></tr>`).join('');
+  }catch(e){pill('chain','API unreachable','bad')}
+}
+setInterval(tick,3000);tick();
+</script>
+</body>
+</html>
