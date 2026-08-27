@@ -203,7 +203,14 @@ async function loadP7(){
 // ── boot ──
 const LOADERS={overview:loadOverview,p1:loadP1,p2:loadP2,p3:loadP3,p4:loadP4,
   p5:loadP5,p6a:loadP6a,p6b:loadP6b,p7:loadP7};
-async function nav(id){ await LOADERS[id](); show(id); }
+async function nav(id){
+  show(id);  // switch FIRST — a failing API must never eat the tab change
+  try { await LOADERS[id](); }
+  catch(e){
+    const p=$("p-"+id);
+    if(p) p.innerHTML=`<h2>${id} — data error</h2><div class="out">${esc(String(e))}<br><br>The product page failed to load its data. This is a bug worth reporting.</div>`;
+  }
+}
 document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>nav(b.dataset.p));
 (async function boot(){ await statusPills(); await nav("overview");
   setInterval(statusPills,5000); })();

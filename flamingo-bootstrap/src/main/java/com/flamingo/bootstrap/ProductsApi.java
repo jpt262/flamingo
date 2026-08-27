@@ -145,11 +145,8 @@ public class ProductsApi {
         ArrayNode arr = new ArrayNode(com.fasterxml.jackson.databind.node.JsonNodeFactory.instance);
         jdbc.query("""
                 SELECT issuer_cik, manager_id, signal_class, occurred_on, intensity,
-                       evidence_accession,
-                       GREATEST(0, CURRENT_DATE - occurred_on -
-                         CASE signal_class WHEN 'FILING_13F' THEN 45
-                                           WHEN 'FORM4_CLUSTER' THEN 2 ELSE 0 END) AS age
-                FROM targeting_observations ORDER BY issuer_cik, age
+                       evidence_accession
+                FROM targeting_observations ORDER BY issuer_cik, occurred_on
                 """, rs -> {
             var n = arr.addObject();
             n.put("issuer", rs.getString(1));
@@ -157,8 +154,16 @@ public class ProductsApi {
             n.put("signal", rs.getString(3));
             n.put("occurred", rs.getString(4));
             n.put("intensity", rs.getBigDecimal(5));
-            n.put("ageDays", rs.getInt(6));
-            n.put("evidence", rs.getString(7));
+            // age computed here: occurrence + signal lag, floored at 0
+            int lag = switch (rs.getString(3)) {
+                case "FILING_13F" -> 45;
+                case "FORM4_CLUSTER" -> 2;
+                default -> 0;
+            };
+            long age = java.time.temporal.ChronoUnit.DAYS.between(
+                    rs.getDate(4).toLocalDate(), java.time.LocalDate.now()) - lag;
+            n.put("ageDays", Math.max(0, age));
+            n.put("evidence", rs.getString(6));
         });
         return arr;
     }
