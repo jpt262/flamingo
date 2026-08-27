@@ -35,6 +35,13 @@ public class ProvenanceLinker {
         }
     }
 
+    /** Registers a DERIVED value (e.g. per-share math) as bindable: a sentence
+     *  may cite it only if it also cites every source row — enforced by the
+     *  caller passing the full source set in {@code sources}. */
+    public void registerDerived(String key, String valueRepr, String citation) {
+        facts.put(key, new FactRow(key, valueRepr, citation));
+    }
+
     /**
      * Verifies each sentence: every factRef must exist AND the sentence text
      * must actually mention the fact's value (bidirectional binding — §10).

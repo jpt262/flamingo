@@ -19,6 +19,16 @@ Last updated: 2026-08-27 · Live at commit `2c1372c` era (post-Gate-1 wave).
 | **P3 Drafter core** | Provenance linker (unbound sentences physically dropped, drop-rate telemetry), §10 compliance-mode machine (LOCKOUT refuses outbound classes), deterministic templater |
 | **Platform** | 5-module Maven build, Flyway V1–V8, 39-test suite green (incl. per-run isolated DBs), operator cockpit, CI with structural gate enforcement |
 
+## Gate-2 products (landed) ✅
+
+| Product | Core |
+|---|---|
+| P5 Rights Rail | entitlement/oversubscription/standby arithmetic — PENDING-COUNSEL surfaces |
+| P6a Blue-Sky | state notice-filing calendar matrix (data-driven) |
+| P6b PIPE Kit | counsel-gated clause registry + assembly outlines |
+| P7 Evidence Engine | ADR-0007 outcome label harvest (labels only; modeling separately gated) |
+| 9-page cockpit | one live page per product with working actions |
+
 ## In flight 🔨
 
 | Item | Notes |

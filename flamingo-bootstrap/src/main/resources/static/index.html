@@ -2,82 +2,211 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>FLAMINGO — Operator Cockpit</title>
+<title>FLAMINGO — Product Cockpit</title>
 <style>
   :root{--bg:#0b0e14;--panel:#131826;--edge:#232c42;--ink:#dbe4f5;--dim:#7d8aa8;
-        --ok:#3fd68f;--warn:#ffb454;--bad:#ff5d73;--acc:#6ea8fe}
+        --ok:#3fd68f;--warn:#ffb454;--bad:#ff5d73;--acc:#6ea8fe;--p5:#c792ea}
   *{box-sizing:border-box;margin:0}
   body{background:var(--bg);color:var(--ink);
-       font:14px/1.45 "Cascadia Code",Consolas,ui-monospace,monospace;
-       padding:18px;display:flex;flex-direction:column;gap:14px;height:100vh}
-  header{display:flex;align-items:baseline;gap:12px;border-bottom:1px solid var(--edge);padding-bottom:10px}
-  header h1{font-size:16px;letter-spacing:.12em;color:var(--acc)}
+       font:14px/1.45 "Cascadia Code",Consolas,ui-monospace,monospace;height:100vh;
+       display:flex;flex-direction:column}
+  header{display:flex;align-items:center;gap:10px;padding:10px 16px;border-bottom:1px solid var(--edge)}
+  header h1{font-size:15px;letter-spacing:.12em;color:var(--acc)}
   .pill{border:1px solid var(--edge);border-radius:999px;padding:2px 10px;font-size:11px;color:var(--dim)}
   .pill.ok{color:var(--ok);border-color:var(--ok)}
-  .pill.bad{color:var(--bad);border-color:var(--bad)}
-  main{display:grid;grid-template-columns:280px 1fr 340px;gap:14px;flex:1;min-height:0}
-  section{background:var(--panel);border:1px solid var(--edge);border-radius:10px;padding:12px;overflow:auto}
-  h2{font-size:11px;text-transform:uppercase;letter-spacing:.14em;color:var(--dim);margin-bottom:10px}
-  table{width:100%;border-collapse:collapse;font-size:12.5px}
-  td,th{text-align:left;padding:4px 6px;border-bottom:1px solid var(--edge)}
-  th{color:var(--dim);font-weight:normal}
-  .k{color:var(--dim)} .v{color:var(--ink)} .mono{font-size:11px}
-  .bar{height:8px;background:var(--edge);border-radius:99px;overflow:hidden;margin:6px 0}
-  .bar>div{height:100%;background:var(--acc);width:0%}
-  #log{white-space:pre-wrap;color:var(--dim);font-size:11.5px}
+  nav{display:flex;gap:2px;padding:6px 16px;border-bottom:1px solid var(--edge);flex-wrap:wrap}
+  nav button{background:none;border:1px solid transparent;color:var(--dim);padding:6px 12px;
+             font:inherit;font-size:12px;cursor:pointer;border-radius:6px}
+  nav button:hover{color:var(--ink)}
+  nav button.active{color:var(--acc);border-color:var(--acc);background:#6ea8fe14}
+  main{flex:1;overflow:auto;padding:16px}
+  section.page{display:none;max-width:1200px;margin:0 auto}
+  section.page.active{display:block}
+  h2{font-size:12px;text-transform:uppercase;letter-spacing:.14em;color:var(--dim);margin:14px 0 8px}
+  .lead{color:var(--dim);font-size:13px;margin-bottom:12px;max-width:900px}
+  table{width:100%;border-collapse:collapse;font-size:12.5px;background:var(--panel);
+        border:1px solid var(--edge);border-radius:8px}
+  td,th{text-align:left;padding:6px 10px;border-bottom:1px solid var(--edge)}
+  th{color:var(--dim);font-weight:normal;font-size:11px;text-transform:uppercase;letter-spacing:.08em}
+  .b{display:inline-block;padding:1px 8px;border-radius:99px;font-size:10.5px;border:1px solid}
+  .b.blocking,.b.bad{color:var(--bad);border-color:var(--bad)}
+  .b.warn{color:var(--warn);border-color:var(--warn)}
+  .b.ok,.b.filed,.b.approved,.b.Monitored,.b.Priced{color:var(--ok);border-color:var(--ok)}
+  .b.info,.b.planned,.b.pending{color:var(--dim);border-color:var(--edge)}
+  .b.overdue,.b.PENDING-COUNSEL{color:var(--p5);border-color:var(--p5)}
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:14px}
+  .card{background:var(--panel);border:1px solid var(--edge);border-radius:8px;padding:10px}
+  .card .k{color:var(--dim);font-size:11px}.card .v{font-size:20px;color:var(--acc)}
+  .row{display:flex;gap:8px;align-items:center;margin:10px 0;flex-wrap:wrap}
+  input,select{background:var(--panel);border:1px solid var(--edge);color:var(--ink);
+               padding:6px 10px;border-radius:6px;font:inherit;font-size:12.5px}
+  button.act{background:#6ea8fe22;border:1px solid var(--acc);color:var(--acc);
+             padding:6px 14px;border-radius:6px;font:inherit;font-size:12.5px;cursor:pointer}
+  button.act:hover{background:#6ea8fe44}
+  .out{background:var(--panel);border:1px solid var(--edge);border-radius:8px;padding:10px;
+       margin-top:10px;font-size:12.5px;white-space:pre-wrap;color:var(--ink)}
+  .cite{color:var(--dim);font-size:11px;font-style:italic}
+  .mono{font-size:11px}
 </style>
 </head>
 <body>
 <header>
-  <h1>FLAMINGO</h1><span class="pill" id="chain">chain …</span>
-  <span class="pill" id="net">LIVE_NET=0</span>
-  <span style="flex:1"></span>
-  <span class="pill mono" id="store">rawstore …</span>
+  <h1>FLAMINGO</h1><span class="pill ok" id="chain">chain …</span>
+  <span style="flex:1"></span><span class="pill mono" id="updated"></span>
 </header>
+<nav id="nav"></nav>
 <main>
-  <section id="stats"><h2>Trunk state</h2><table id="statT"></table></section>
-  <section id="filingsPanel">
-    <h2>Recent filings — live from Postgres</h2>
-    <table id="filT"></table>
-  </section>
-  <section>
-    <h2>Golden corpus (T-05)</h2>
-    <div class="k">indexed / target</div>
-    <div class="v" id="gcount">0 / 200</div>
-    <div class="bar"><div id="gbar"></div></div>
-    <div class="k">index + SHA256SUMS under tests/golden/</div>
-    <h2 style="margin-top:14px">Actions</h2>
-    <table>
-      <tr><td class="k">corpus build</td><td class="v mono">mvnw … GoldenCorpusJob</td></tr>
-      <tr><td class="k">smoke (owner-gated)</td><td class="v mono">livenet=true</td></tr>
-    </table>
-    <h2 style="margin-top:14px">Event log</h2>
-    <div id="log">cockpit attached…</div>
-  </section>
+  <section class="page" id="p-overview"></section>
+  <section class="page" id="p-p1"></section>
+  <section class="page" id="p-p2"></section>
+  <section class="page" id="p-p3"></section>
+  <section class="page" id="p-p4"></section>
+  <section class="page" id="p-p5"></section>
+  <section class="page" id="p-p6a"></section>
+  <section class="page" id="p-p6b"></section>
+  <section class="page" id="p-p7"></section>
 </main>
 <script>
 const $=id=>document.getElementById(id);
-function pill(id,text,cls){const e=$(id);e.textContent=text;e.className='pill '+(cls||'');}
-async function j(url){return (await fetch(url)).json();}
-async function tick(){
-  try{
-    const s=await j('/api/status');
-    const chainOk=s.chain==='SOUND';
-    pill('chain','chain '+s.chain.toLowerCase(),chainOk?'ok':'bad');
-    $('store').textContent=`rawstore ${s.rawstore.evidence_files} files · ${s.rawstore.root}`;
-    const rows=[['companies',s.companies],['filings',s.filings],
-      ['evidence_refs',s.evidence_refs],['facts',s.facts],['manifests',s.manifests]];
-    $('statT').innerHTML=rows.map(r=>`<tr><td class="k">${r[0]}</td><td class="v">${r[1]}</td></tr>`).join('');
-    const g=s.golden||{};const pct=Math.min(100,(g.indexed||0)*100/(g.target_hint||200));
-    $('gcount').textContent=(g.indexed||0)+' / '+(g.target_hint||200);
-    $('gbar').style.width=pct+'%';
-    const f=await j('/api/filings');
-    $('filT').innerHTML='<tr><th>filed</th><th>form</th><th>entity</th><th>accession</th></tr>'+
-      f.map(r=>`<tr><td>${(r.filed||'').slice(0,10)}</td><td>${r.form}</td>`+
-      `<td>${(r.entity||'').slice(0,28)}</td><td class="mono">${r.accession}</td></tr>`).join('');
-  }catch(e){pill('chain','API unreachable','bad')}
+const PAGES=[
+ ["overview","Overview"],["p1","P1 · Dealer Packets"],["p2","P2 · Restoration"],
+ ["p3","P3 · Offering Drafter"],["p4","P4 · Buyer-List"],["p5","P5 · Rights Rail"],
+ ["p6a","P6a · Blue-Sky"],["p6b","P6b · PIPE Kit"],["p7","P7 · Evidence Engine"]];
+const j=async u=>(await fetch(u)).json();
+const post=async(u,b)=>(await fetch(u,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(b)})).json();
+const esc=s=>String(s??"").replace(/</g,"&lt;");
+const badge=s=>`<span class="b ${esc(s)}">${esc(s)}</span>`;
+function show(id){
+  document.querySelectorAll("section.page").forEach(s=>s.classList.remove("active"));
+  $("p-"+id).classList.add("active");
+  document.querySelectorAll("nav button").forEach(b=>b.classList.toggle("active",b.dataset.p===id));
 }
-setInterval(tick,3000);tick();
+$("nav").innerHTML=PAGES.map(([id,l])=>`<button data-p="${id}" onclick="show('${id}')">${l}</button>`).join("");
+async function statusPills(){
+  try{const s=await j("/api/status");
+    $("chain").textContent="chain "+s.chain.toLowerCase();
+    $("chain").className="pill "+(s.chain==="SOUND"?"ok":"");
+    $("updated").textContent=`filings ${s.filings} · facts ${s.facts} · rawstore ${s.rawstore.evidence_files} · corpus ${s.golden.indexed}/${s.golden.target_hint}`;
+  }catch(e){$("chain").textContent="API down";$("chain").className="pill";}
+}
+const tbl=(h,rows)=>`<table><tr>${h.map(x=>`<th>${x}</th>`).join("")}</tr>${rows}</table>`;
+// ── Overview ──
+async function loadOverview(){
+  const s=await j("/api/status");
+  const cards=[["companies",s.companies],["filings",s.filings],["evidence_refs",s.evidence_refs],
+    ["facts",s.facts],["manifests",s.manifests],["corpus",`${s.golden.indexed}/${s.golden.target_hint}`]]
+    .map(c=>`<div class="card"><div class="k">${c[0]}</div><div class="v">${c[1]}</div></div>`).join("");
+  $("p-overview").innerHTML=`<h2>Trunk state — one spine feeding every product</h2>
+  <div class="cards">${cards}</div>
+  <div class="lead">Data lands once — raw-first, hash-bound, append-only — and every product below reads from the same governed spine. Click a product tab to see its live surface.</div>
+  ${tbl(["product","what it does","status"],`
+  <tr><td>P1 · Dealer Packets</td><td>Rule 15c2-11 diligence: flags + citations + memos, WORM-archived</td><td>${badge("ok")} live engine</td></tr>
+  <tr><td>P2 · Restoration</td><td>Delinquency-cure workflow, drift-back auto-reopen</td><td>${badge("ok")} live workflow</td></tr>
+  <tr><td>P3 · Offering Drafter</td><td>Cited Dilution/Cap/UoP drafting, zero uncited sentences</td><td>${badge("ok")} core live · narration pending vendor</td></tr>
+  <tr><td>P4 · Buyer-List</td><td>Presence-based institutional targeting, no-transmission guaranteed</td><td>${badge("ok")} scorer live</td></tr>
+  <tr><td>P5 · Rights Rail</td><td>Entitlement/oversubscription/standby math</td><td>${badge("PENDING-COUNSEL")} PENDING-COUNSEL</td></tr>
+  <tr><td>P6a · Blue-Sky</td><td>State notice-filing calendar matrix</td><td>${badge("ok")} live</td></tr>
+  <tr><td>P6b · PIPE Kit</td><td>Counsel-gated clause registry + assembly</td><td>${badge("ok")} registry live</td></tr>
+  <tr><td>P7 · Evidence Engine</td><td>Outcome label harvest → future models</td><td>${badge("ok")} labeling live</td></tr>`)}`;
+}
+// ── P1 ──
+async function loadP1(){
+  const f=await j("/api/flags");
+  $("p-p1").innerHTML=`<h2>Gap flags — the packet core</h2>
+  <div class="lead">Every flag cites the rule it violates, verbatim. Severity drives what a broker-dealer may quote. This table is what the PDF packet renders from.</div>
+  ${tbl(["issuer","rule","severity","dimension","citation","disposition"],
+    f.map(r=>`<tr><td>${esc(r.issuer)}</td><td class="mono">${esc(r.rule)}</td><td>${badge(r.severity)}</td>
+    <td>${esc(r.dimension)}</td><td class="cite">${esc(r.citation)}</td><td>${badge(r.disposition)}</td></tr>`).join(""))}`;
+}
+// ── P2 ──
+let CASES=[];
+async function loadP2(){
+  CASES=await j("/api/restoration");
+  $("p-p2").innerHTML=`<h2>Restoration workspace</h2>
+  <div class="lead">Event-sourced cure workflow: Engaged → Diagnosed → Remediation → CatchUp → CurrentInfo → ReadyFor211 → Quoted → Monitored (drift-back to CatchUp is automatic). Illegal jumps are rejected by the machine.</div>
+  ${tbl(["case","issuer","tier","status","events"],
+    CASES.map(c=>`<tr><td class="mono">#${c.caseId}</td><td>${esc(c.issuer)}</td><td>${esc(c.tier)}</td><td>${badge(c.status)}</td><td>${c.events}</td></tr>`).join(""))}
+  <h2>Record a transition</h2>
+  <div class="row">
+    <select id="p2case">${CASES.map(c=>`<option value="${c.caseId}">case #${c.caseId} — ${esc(c.issuer)} (${c.status})</option>`).join("")}</select>
+    <select id="p2to">${["Diagnosed","Remediation","CatchUp","CurrentInfo","ReadyFor211","Quoted","Monitored","Abandoned"].map(s=>`<option>${s}</option>`).join("")}</select>
+    <button class="act" onclick="doTransition()">Advance</button>
+  </div><div class="out" id="p2out">machine verdict appears here…</div>`;
+}
+async function doTransition(){
+  const caseId=$("p2case").value, to=$("p2to").value;
+  const r=await post("/api/restoration/transition",{caseId,to});
+  $("p2out").textContent=JSON.stringify(r,null,2);
+  await loadP2(); await statusPills();
+}
+// ── P3 ──
+async function loadP3(){
+  $("p-p3").innerHTML=`<h2>Offering Drafter — cited sections, zero uncited sentences</h2>
+  <div class="lead">Deal params → templater → provenance linker. Every emitted sentence is verifiably bound to a fact row; anything unbound is physically dropped (drop-rate is the telemetry). Narration vendor slot: PENDING-OWNER per ADR-0011.</div>
+  <div class="row">price $<input id="p3price" value="4.00" size="6"> shares <input id="p3shares" value="10000000" size="10">
+  <button class="act" onclick="runDraft()">Draft dilution section</button></div>
+  <div class="out" id="p3out">press Draft…</div>`;
+}
+async function runDraft(){
+  const r=await j(`/api/drafting/run?price=${$("p3price").value}&shares=${$("p3shares").value}`);
+  $("p3out").innerHTML=`mode: <b>${r.mode}</b> · narrationClient: ${r.narrationClient}<br>
+  templater emitted ${r.templaterEmitted} · linked ${r.linkedEmitted} · <b style="color:var(--warn)">dropped ${r.dropped} (rate ${(r.dropRate*100).toFixed(0)}%)</b><br><br>`+
+  r.sentences.map(s=>"• "+esc(s)).join("<br>");
+}
+// ── P4 ──
+async function loadP4(){
+  const t=await j("/api/targeting");
+  $("p-p4").innerHTML=`<h2>Buyer-List — presence scoring</h2>
+  <div class="lead">Institutional presence from 13F / Form-4 clusters / 424B5 anchors, with frozen decay constants. This module CANNOT transmit — enforced by a build gate that fails if any transport surface enters its classpath.</div>
+  ${tbl(["issuer","manager","signal","occurred","intensity","age (d)","evidence"],
+    t.map(r=>`<tr><td class="mono">${esc(r.issuer)}</td><td>${esc(r.manager)}</td><td>${esc(r.signal)}</td>
+    <td>${esc(r.occurred)}</td><td>${r.intensity}</td><td>${r.ageDays}</td><td class="mono">${esc(r.evidence)}</td></tr>`).join(""))}`;
+}
+// ── P5 ──
+async function loadP5(){
+  const r=await j("/api/rights");
+  $("p-p5").innerHTML=`<h2>Rights Rail — PENDING-COUNSEL</h2>
+  <div class="lead">Entitlement / oversubscription / standby-backstop arithmetic as pure functions. Every surface carries PENDING-COUNSEL until counsel confirms shelf arithmetic (§12/§18). Distribution itself is executed exclusively by the partner broker-dealer — never by this system.</div>
+  ${r.length?tbl(["issuer","record date","ratio","price","standby","status"],
+    r.map(x=>`<tr><td>${esc(x.issuer)}</td><td>${esc(x.recordDate)}</td><td>${esc(x.ratio)}</td><td>$${x.price}</td><td>${esc(x.standby||"—")}</td><td>${badge(x.status)}</td></tr>`).join(""))
+  :`<div class="lead">no offerings structured yet — arithmetic is tested (RightsMathTest) and ready for the first deal</div>`}`;
+}
+// ── P6a ──
+async function loadP6a(){
+  $("p-p6a").innerHTML=`<h2>Blue-Sky — state notice-filing calendar</h2>
+  <div class="lead">Deterministic due-date matrix from the offering qualification date. States are data rows; statuses roll up live (planned / filed / overdue).</div>
+  <div class="row">qualification date <input id="qdate" value="2026-09-15" size="10">
+  <button class="act" onclick="loadBlue()">Regenerate</button></div><div id="p6atable"></div>`;
+  await loadBlue();
+}
+async function loadBlue(){
+  const b=await j(`/api/bluesky?qualification=${$("qdate").value}`);
+  $("p6atable").innerHTML=tbl(["state","filing","due","status"],
+    b.entries.map(e=>`<tr><td>${esc(e.state)}</td><td>${esc(e.filing)}</td><td>${esc(e.due)}</td><td>${badge(e.status)}</td></tr>`).join(""));
+}
+// ── P6b ──
+async function loadP6b(){
+  const c=await j("/api/pipekit");
+  $("p-p6b").innerHTML=`<h2>PIPE Kit — counsel-gated clause registry</h2>
+  <div class="lead">Assemblies only reach production_ready when every clause carries counsel approval. Content governance is the product.</div>
+  ${tbl(["key","category","title","counsel review"],
+    c.map(x=>`<tr><td class="mono">${esc(x.key)}</td><td>${esc(x.category)}</td><td>${esc(x.title)}</td><td>${badge(x.review)}</td></tr>`).join(""))}`;
+}
+// ── P7 ──
+async function loadP7(){
+  const l=await j("/api/labels");
+  $("p-p7").innerHTML=`<h2>Evidence Engine — outcome label harvest</h2>
+  <div class="lead">Operational outcomes labeled against the ADR-0007 vocabulary. Labels accumulate now; modeling/training is a separately gated design. This is the moat being filled — one evaluation disposition at a time.</div>
+  <div class="cards">${l.distribution.map(d=>`<div class="card"><div class="k">${esc(d.outcome)}</div><div class="v">${d.count}</div></div>`).join("")}</div>
+  <div class="lead">vocabulary: ${l.vocabulary.map(v=>`<span class="mono">${esc(v)}</span>`).join(" · ")}</div>`;
+}
+// ── boot ──
+const LOADERS={overview:loadOverview,p1:loadP1,p2:loadP2,p3:loadP3,p4:loadP4,
+  p5:loadP5,p6a:loadP6a,p6b:loadP6b,p7:loadP7};
+async function nav(id){ await LOADERS[id](); show(id); }
+document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>nav(b.dataset.p));
+(async function boot(){ await statusPills(); await nav("overview");
+  setInterval(statusPills,5000); })();
 </script>
 </body>
 </html>

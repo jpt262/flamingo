@@ -60,19 +60,23 @@ public class SectionTemplater {
         }
         BigDecimal ntvBefore = cash.divide(out0, 6, RoundingMode.HALF_UP);
         out.add(new ProvenanceLinker.Sentence(
-                "Pro forma net tangible book value per share before the offering is $"
-                        + ntvBefore.toPlainString() + " based on " + out0.toPlainString()
-                        + " shares outstanding.",
-                Set.of("SharesOutstanding", "Cash")));
+                "As of the latest balance sheet date, cash and cash equivalents were $"
+                        + cash.toPlainString() + ". Pro forma net tangible book value per share "
+                        + "before the offering is $" + ntvBefore.toPlainString()
+                        + " based on " + out0.toPlainString() + " shares outstanding.",
+                Set.of("SharesOutstanding", "Cash", "NTV_BEFORE")));
         BigDecimal sharesAfter = out0.add(p.sharesOffered());
         BigDecimal proceeds = p.offerPrice().multiply(p.sharesOffered());
         BigDecimal ntvAfter = cash.add(proceeds).divide(sharesAfter, 6, RoundingMode.HALF_UP);
         out.add(new ProvenanceLinker.Sentence(
                 "After the offering, net tangible book value per share is $"
                         + ntvAfter.toPlainString() + " based on " + sharesAfter.toPlainString()
-                        + " shares and $" + proceeds.toPlainString() + " of gross proceeds at a price of $"
-                        + p.offerPrice().toPlainString() + " per share.",
-                Set.of("SharesOutstanding", "Cash")));
+                        + " shares outstanding and gross proceeds of $"
+                        + proceeds.setScale(2, RoundingMode.HALF_UP).toPlainString()
+                        + " from the sale of " + p.sharesOffered().toPlainString()
+                        + " shares at $" + p.offerPrice().toPlainString()
+                        + " per share, reflecting existing cash of $" + cash.toPlainString() + ".",
+                Set.of("SharesOutstanding", "Cash", "NTV_AFTER")));
         return out;
     }
 }
